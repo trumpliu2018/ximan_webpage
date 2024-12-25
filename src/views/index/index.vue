@@ -43,11 +43,20 @@
       </div>
       <div class="group_3 flex-col">
         <div class="box_3 flex-col"></div>
-        <div class="box_4 flex-col justify-end">
+        <div class="box_4 flex-col justify-end"> 
           <div class="box_52 flex-row">
             <div class="group_4 flex-col">
               <div class="group_5 flex-col">
                 <div class="text-wrapper_1 flex-col">
+                  <span class="text_4">其他优势</span>
+                  <span class="paragraph_1">
+                    专业系统功能完备，管理界面简单明晰
+                    <br />
+                    手机端直接下单、优惠、查单等
+                    <br />
+                    高层管理人员实时查看门店经营
+                  </span>
+                  <span class="text_4">其他优势</span>
                   <span class="paragraph_1">
                     专业系统功能完备，管理界面简单明晰
                     <br />
@@ -56,10 +65,11 @@
                     高层管理人员实时查看门店经营
                   </span>
                 </div>
+                
               </div>
             </div>
           </div>
-          <div class="box_53 flex-row">
+          <div class="box_53 flex-row justify-between">
             <div class="image-text_39 flex-col justify-between">
               <img
                 class="image_6"
@@ -68,7 +78,7 @@
               />
               <span class="text-group_2">精准的成本控制</span>
             </div>
-            <div class="text-wrapper_31 flex-col justify-between">
+            <!-- <div class="text-wrapper_31 flex-col justify-between">
               <span class="text_4">其他优势</span>
               <span class="paragraph_2">
                 开发团队经验丰富、技术卓越
@@ -79,7 +89,7 @@
                 <br />
                 酒吧定制化开发功能
               </span>
-            </div>
+            </div> -->
             <div class="image-text_40 flex-col justify-between">
               <img
                 class="image_7"
@@ -112,7 +122,7 @@
               <span class="text-group_5">丰富的决策支持</span>
             </div>
           </div>
-          <div class="text-wrapper_32 flex-row"><span class="text_5">系统优势</span></div>
+          <!-- <div class="text-wrapper_32 flex-row"><span class="text_5">系统优势</span></div> -->
         </div>
         <span class="text_6">便捷的网络支付</span>
       </div>

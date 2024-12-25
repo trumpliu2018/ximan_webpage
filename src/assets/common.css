@@ -23,6 +23,11 @@ button:active {
   display: flex;
   flex-direction: row;
 }
+.flex-row-between{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .justify-start {
   display: flex;
   justify-content: flex-start;
