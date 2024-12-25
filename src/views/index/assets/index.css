@@ -160,6 +160,11 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+.box_advance {
+  width: 12.71vw;
+  height: 3.54vw;
+  margin: 4.37vw auto 0;
+}
 
 .box_4 {
   background-image: url(./img/bf79a5ab40424f81b97279d40ba6097e_mergeImage.png);

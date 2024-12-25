@@ -43,8 +43,33 @@
       </div>
       <div class="group_3 flex-col">
         <div class="box_3 flex-col"></div>
+        <div class="box_advance flex-col justify-end">
+          <div class="group_4 flex-col">
+              <div class="group_5 flex-col">
+                <div class="text-wrapper_1 flex-col">
+                  <span class="text_4">其他优势</span>
+                  <span class="paragraph_1">
+                    专业系统功能完备，管理界面简单明晰
+                    <br />
+                    手机端直接下单、优惠、查单等
+                    <br />
+                    高层管理人员实时查看门店经营
+                  </span>
+                  <span class="text_4">其他优势</span>
+                  <span class="paragraph_1">
+                    专业系统功能完备，管理界面简单明晰
+                    <br />
+                    手机端直接下单、优惠、查单等
+                    <br />
+                    高层管理人员实时查看门店经营
+                  </span>
+                </div>
+                
+              </div>
+            </div>
+        </div>
         <div class="box_4 flex-col justify-end"> 
-          <div class="box_52 flex-row">
+          <!-- <div class="box_52 flex-row">
             <div class="group_4 flex-col">
               <div class="group_5 flex-col">
                 <div class="text-wrapper_1 flex-col">
@@ -68,7 +93,7 @@
                 
               </div>
             </div>
-          </div>
+          </div> -->
           <div class="box_53 flex-row justify-between">
             <div class="image-text_39 flex-col justify-between">
               <img
