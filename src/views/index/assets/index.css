@@ -147,15 +147,18 @@
 
 .group_3 {
   background-color: rgba(22, 25, 34, 1);
-  /* width: 1920px; */
-  height: 920px;
+  width: 100vw;
+  height: 47.92vw;
 }
 
 .box_3 {
   background-image: url(./img/8da7a0b2aedb46078f0c9a65cdd41bca_mergeImage.png);
-  width: 244px;
-  height: 68px;
-  margin: 84px 0 0 838px;
+  width: 12.71vw;
+  height: 3.54vw;
+  margin: 4.37vw auto 0;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .box_4 {

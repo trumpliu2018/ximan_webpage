@@ -403,16 +403,6 @@
               </div>
             </div>
           </div>
-          <div class="box_22 flex-row">
-            <div class="image-text_48 flex-row justify-between">
-              <img
-                class="image_24"
-                referrerpolicy="no-referrer"
-                src="./assets/img/SketchPng09a9867468919ded31ab7c08bce0935fc2d5be63a17e28d65c17798e63bd6154.png"
-              />
-              <span class="text-group_14">在线咨询</span>
-            </div>
-          </div>
         </div>
         <div class="box_70 flex-row justify-between">
           <div class="image-text_49 flex-col justify-between">
