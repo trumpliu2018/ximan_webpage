@@ -46,23 +46,29 @@
         <div class="box_advance flex-col justify-end">
           <div class="group_4 flex-col">
               <div class="group_5 flex-col">
-                <div class="text-wrapper_1 flex-col">
-                  <span class="text_4">其他优势</span>
-                  <span class="paragraph_1">
-                    专业系统功能完备，管理界面简单明晰
-                    <br />
-                    手机端直接下单、优惠、查单等
-                    <br />
-                    高层管理人员实时查看门店经营
-                  </span>
-                  <span class="text_4">其他优势</span>
-                  <span class="paragraph_1">
-                    专业系统功能完备，管理界面简单明晰
-                    <br />
-                    手机端直接下单、优惠、查单等
-                    <br />
-                    高层管理人员实时查看门店经营
-                  </span>
+                <div class="text-wrapper_1">
+                  <div class="advantage-section">
+                    <span class="text_4">系统优势</span>
+                    <span class="paragraph_1">
+                      专业系统功能完备，管理界面简单明晰
+                      <br />
+                      手机端直接下单、优惠、查单等
+                      <br />
+                      高层管理人员实时查看门店经营
+                    </span>
+                  </div>
+                  <div class="advantage-section">
+                    <span class="text_4">其他优势</span>
+                    <span class="paragraph_1">
+                      开发团队经验丰富、技术卓越
+                      <br />
+                      人工客服24小时在线，售后无忧
+                      <br />
+                      系统版本维护更新，保障系统与时俱进
+                      <br />
+                      酒吧定制化开发功能
+                    </span>
+                  </div>
                 </div>
                 
               </div>

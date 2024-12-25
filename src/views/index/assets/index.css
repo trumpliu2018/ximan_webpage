@@ -160,10 +160,63 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .box_advance {
-  width: 12.71vw;
-  height: 3.54vw;
-  margin: 4.37vw auto 0;
+  width: 25.47vw;
+  height: auto;
+  margin-left: 43.5vw;
+  position: relative;
+}
+
+.box_advance .group_4 {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.box_advance .group_5 {
+  width: 25.47vw;
+  height: 5.94vw;
+  background: url(./img/SketchPngab1325f2d1f2c3ae83aafc56a3ca06b57da207d52d15620d543c623ee11fe61b.png) 100% no-repeat;
+  background-size: 100% 100%;
+}
+
+.box_advance .text-wrapper_1 {
+  width: 23.91vw;
+  height: auto;
+  margin: 0.21vw 0 0 0.78vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.box_advance .advantage-section {
+  margin-bottom: 0.5vw;
+}
+
+.box_advance .text_4 {
+  width: auto;
+  color: rgba(50, 116, 255, 1);
+  font-size: 1.25vw;
+  font-family: PingFangSC-Semibold;
+  font-weight: 600;
+  text-align: left;
+  line-height: 1.56vw;
+  /* margin-bottom: 0.83vw; */
+  display: block;
+}
+
+.box_advance .paragraph_1 {
+  width: 100%;
+  color: rgba(255, 255, 255, 1);
+  font-size: 1.0vw;
+  font-family: PingFangSC-Regular;
+  text-align: left;
+  line-height: 1vw;
+  margin: 0;
+}
+
+.box_advance .paragraph_1 br + * {
+  margin-top: 0.2vw;
 }
 
 .box_4 {
@@ -203,18 +256,6 @@
   background-size: 467px 121px;
   width: 459px;
   margin: 4px 0 0 15px;
-}
-
-.paragraph_1 {
-  width: 272px;
-  height: 68px;
-  overflow-wrap: break-word;
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 16px;
-  font-weight: NaN;
-  text-align: left;
-  line-height: 22px;
-  margin: 19px 0 15px 0;
 }
 
 .box_53 {
@@ -320,6 +361,7 @@
   width: 8.75vw;
   height: 9.79vw;
 }
+
 .image-text_middle {
   width: 8.75vw;
   height: 9.79vw;
@@ -1126,15 +1168,14 @@
 
 .text_19 {
   width: 60px;
-  height: 20px;
+  height: 18px;
   overflow-wrap: break-word;
-  color: rgba(74, 187, 255, 1);
-  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 18px;
   font-weight: NaN;
   text-align: left;
   white-space: nowrap;
-  line-height: 20px;
-  margin: 10px 0 0 30px;
+  line-height: 18px;
 }
 
 .group_29 {
@@ -1408,6 +1449,7 @@
 .group_32:nth-child(2n) {
   margin-right: 0;
 }
+
 .group_32:nth-last-child(-n + 2) {
   margin-bottom: 0;
 }
@@ -1486,6 +1528,7 @@
   font-size: 20px;
   font-weight: NaN;
   text-align: left;
+  white-space: nowrap;
   line-height: 28px;
   margin-top: 12px;
 }
