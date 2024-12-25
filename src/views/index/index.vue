@@ -25,7 +25,7 @@
           src="./assets/img/SketchPngb895987c19ffc3e559e93066f42964b34addb7a4f4ea542f590c8b6c9ab801a4.png"
         />
         <span class="text_3">全场景专业酒店管理平台&nbsp;&nbsp;提供智能化、数字化解决方案</span>
-        <div class="section_1 flex-row">
+        <!-- <div class="section_1 flex-row">
           <div class="image-text_38 flex-row justify-between">
             <img
               class="image_4"
@@ -34,7 +34,7 @@
             />
             <span class="text-group_1">在线咨询</span>
           </div>
-        </div>
+        </div> -->
         <img
           class="image_5"
           referrerpolicy="no-referrer"
