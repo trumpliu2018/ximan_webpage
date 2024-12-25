@@ -133,23 +133,24 @@
               />
               <span class="text-group_4">灵活的会员方案</span>
             </div>
-            <img
-              class="image_9"
-              referrerpolicy="no-referrer"
-              src="./assets/img/SketchPng9ebf4e1824fc32e7a26e08f055ea019b463fae944eb43b73a7eafb4550330f1c.png"
-            />
+            <div class="image-text_middle flex-col justify-between">
+              <img
+                class="image_8"
+                referrerpolicy="no-referrer"
+                src="./assets/img/SketchPng9ebf4e1824fc32e7a26e08f055ea019b463fae944eb43b73a7eafb4550330f1c.png"
+              />
+              <span class="text-group_4">便捷的网络支付</span>
+            </div>
             <div class="image-text_42 flex-col justify-between">
               <img
-                class="image_10"
+                class="image_8"
                 referrerpolicy="no-referrer"
                 src="./assets/img/SketchPng1995a4b8286753a8eaf7e400d422f4d74b1c274c9925c12ca1b7d82f4d21b172.png"
               />
               <span class="text-group_5">丰富的决策支持</span>
             </div>
           </div>
-          <!-- <div class="text-wrapper_32 flex-row"><span class="text_5">系统优势</span></div> -->
         </div>
-        <span class="text_6">便捷的网络支付</span>
       </div>
       <div class="group_6 flex-col">
         <div class="box_55 flex-row"><div class="box_5 flex-col"></div></div>
