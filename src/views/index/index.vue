@@ -184,16 +184,6 @@
               <span v-if="item.slot1 === 1" class="text-group_7" v-html="item.specialSlot1.lanhutext0"></span>
             </div>
           </div>
-          <div class="section_12 flex-row">
-            <div class="image-text_44 flex-col justify-between">
-              <img
-                class="image_27"
-                referrerpolicy="no-referrer"
-                src="./assets/img/SketchPng6ba452af424ceaa928c7b3aff70840a89fbfb217f2b1828fecb361d6126d2248.png"
-              />
-              <span class="text-group_32">营销手机端</span>
-            </div>
-          </div>
         </div>
       </div>
       <div class="group_8 flex-col">
