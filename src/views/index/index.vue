@@ -16,11 +16,23 @@
         </div>
         
         <nav class="nav-menu" :class="{ active: isMenuOpen }">
-          <div class="nav-item">
+          <router-link 
+            to="/index" 
+            class="nav-item"
+            :class="{ active: $route.path === '/index' }"
+          >
             首页
-            <div class="nav-indicator"></div>
-          </div>
-          <div class="nav-item inactive">关于我们</div>
+            <div v-if="$route.path === '/index'" class="nav-indicator"></div>
+          </router-link>
+          
+          <router-link 
+            to="/about" 
+            class="nav-item"
+            :class="{ inactive: $route.path !== '/about', active: $route.path === '/about' }"
+          >
+            关于我们
+            <div v-if="$route.path === '/about'" class="nav-indicator"></div>
+          </router-link>
         </nav>
 
         <div class="nav-burger" @click="toggleMenu">
@@ -119,7 +131,7 @@
                     <br />
                     手机端直接下单、优惠、查单等
                     <br />
-                    高层管理人员实时查看门店���营
+                    高层管理人员实时查看门店经营
                   </span>
                 </div>
                 
@@ -179,7 +191,7 @@
                 referrerpolicy="no-referrer"
                 src="./assets/img/SketchPng1995a4b8286753a8eaf7e400d422f4d74b1c274c9925c12ca1b7d82f4d21b172.png"
               />
-              <span class="text-group_5">丰富的���策支持</span>
+              <span class="text-group_5">丰富的策略支持</span>
             </div>
           </div>
         </div>
@@ -228,7 +240,7 @@
               <span class="text_9">筛选即将生日的客户，发送祝福或卡券等；唤醒客户</span>
             </div>
             <div class="text-wrapper_5 flex-col">
-              <span class="text_10">门店创建定时任务，到指定时间后，系统自动下发任何到员工企业微信</span>
+              <span class="text_10">门店创建定时任务，���指定时间后，系统自动下发任何到员工企业微信</span>
             </div>
           </div>
           <div class="group_10 flex-col">
@@ -333,7 +345,7 @@
           <div class="hd_item">
             <div class="hd_left">
               <span class="title_hd">出品打印机</span>
-              <span class="desc_hd">不管是针式还是热敏，我们统统支持打印纸宽度80充满，即插即用</span>
+              <span class="desc_hd">不管是针式还是热敏，我们统统支持打印纸宽度80��满，即插即用</span>
             </div>
             <div class="hd_right">
               <img
@@ -674,6 +686,15 @@ export default {
   methods: {
     toggleMenu() {
       this.isMenuOpen = !this.isMenuOpen;
+    },
+    closeMenu() {
+      this.isMenuOpen = false;
+    }
+  },
+  watch: {
+    $route() {
+      // 路由变化时关闭菜单
+      this.closeMenu();
     }
   }
 };
