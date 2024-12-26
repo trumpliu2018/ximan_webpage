@@ -1,4 +1,4 @@
- <template>
+<template>
   <div class="page flex-col">
     <div class="box_1 flex-col">
       <div class="group_57 flex-row">
@@ -342,61 +342,64 @@
       </div>
       <div class="group_38 flex-col">
         <div class="section-title contact"></div>
-        <div class="box_67 flex-row">
-          <div class="image-text_45 flex-row justify-between">
+        <div class="contact-container">
+          <!-- 电话 -->
+          <div class="contact-info-item">
             <img
-              class="label_2"
+              class="contact-icon"
               referrerpolicy="no-referrer"
               src="./assets/img/SketchPng16d0665d181919fdda48ddbe647aa8003d4054ac42eed6cfe9d478ab37d13302.png"
             />
-            <div class="text-group_36 flex-col justify-between">
-              <span class="text_37">联系电话：</span>
-              <span class="text_38">18276765363</span>
+            <div class="contact-content">
+              <div class="contact-label">联系电话：</div>
+              <div class="contact-value">18276765363</div>
             </div>
           </div>
-        </div>
-        <div class="box_68 flex-row justify-between">
-          <div class="box_69 flex-col justify-between">
-            <div class="image-text_46 flex-row justify-between">
-              <img
-                class="label_3"
-                referrerpolicy="no-referrer"
-                src="./assets/img/SketchPng6717dd8d4f83e9138d5578592a2bc2364917f8fe43b800b09c72822f1ccc23be.png"
-              />
-              <div class="text-group_37 flex-col justify-between">
-                <span class="text_39">地址：</span>
-                <span class="text_40">上海市闵行区1688号可视对讲凹回</span>
-              </div>
-            </div>
-            <div class="image-text_47 flex-row justify-between">
-              <img
-                class="label_4"
-                referrerpolicy="no-referrer"
-                src="./assets/img/SketchPng89b1280114c2f514f53bf135ff000a02e03da1e4f2885c68f5f59c4f578c81b2.png"
-              />
-              <div class="text-group_38 flex-col justify-between">
-                <span class="text_41">邮箱：</span>
-                <span class="text_42">18276765363&#64;xmsj.com</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="box_70 flex-row justify-between">
-          <div class="image-text_49 flex-col justify-between">
+
+          <!-- 地址 -->
+          <div class="contact-info-item">
             <img
-              class="image_25"
+              class="contact-icon"
               referrerpolicy="no-referrer"
-              src="./assets/img/SketchPngcd8e450b5c62f460137112bb10b6bf6bac477563d4d3e8fc4cf3a085ba517581.png"
+              src="./assets/img/SketchPng6717dd8d4f83e9138d5578592a2bc2364917f8fe43b800b09c72822f1ccc23be.png"
             />
-            <span class="text-group_15">客服1微信</span>
+            <div class="contact-content">
+              <div class="contact-label">地址：</div>
+              <div class="contact-value">上海市闵行区1688号可视对讲凹回</div>
+            </div>
           </div>
-          <div class="image-text_50 flex-col justify-between">
+
+          <!-- 邮箱 -->
+          <div class="contact-info-item">
             <img
-              class="image_26"
+              class="contact-icon"
               referrerpolicy="no-referrer"
-              src="./assets/img/SketchPngcd8e450b5c62f460137112bb10b6bf6bac477563d4d3e8fc4cf3a085ba517581.png"
+              src="./assets/img/SketchPng89b1280114c2f514f53bf135ff000a02e03da1e4f2885c68f5f59c4f578c81b2.png"
             />
-            <span class="text-group_16">客服2微信</span>
+            <div class="contact-content">
+              <div class="contact-label">邮箱：</div>
+              <div class="contact-value">18276765363@xmsj.com</div>
+            </div>
+          </div>
+
+          <!-- 二维码 -->
+          <div class="contact-qr">
+            <div class="qr-item">
+              <img
+                class="qr-image"
+                referrerpolicy="no-referrer"
+                src="./assets/img/SketchPngcd8e450b5c62f460137112bb10b6bf6bac477563d4d3e8fc4cf3a085ba517581.png"
+              />
+              <span class="qr-text">客服1微信</span>
+            </div>
+            <div class="qr-item">
+              <img
+                class="qr-image"
+                referrerpolicy="no-referrer"
+                src="./assets/img/SketchPngcd8e450b5c62f460137112bb10b6bf6bac477563d4d3e8fc4cf3a085ba517581.png"
+              />
+              <span class="qr-text">客服2微信</span>
+            </div>
           </div>
         </div>
       </div>

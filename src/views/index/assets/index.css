@@ -2247,3 +2247,235 @@
     max-height: 70%;
   }
 }
+
+/* 删除或注释掉原来的 box_67, box_68, box_70 相关样式 */
+
+/* 添加新的联系方式区域样式 */
+.contact-container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 2.08vw auto 4.17vw;
+  padding: 0 2vw;
+}
+
+.contact-info-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2.08vw;
+}
+
+.contact-icon {
+  width: 2.08vw; /* 40px/1920px */
+  height: 2.08vw;
+  flex-shrink: 0;
+  margin-top: 0.26vw;
+}
+
+.contact-content {
+  margin-left: 0.83vw;
+}
+
+.contact-label {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.94vw;
+  line-height: 0.94vw;
+  margin-bottom: 0.42vw;
+}
+
+.contact-value {
+  color: rgba(255, 255, 255, 1);
+  font-size: 1.25vw;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  line-height: 1.25vw;
+}
+
+.contact-qr {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2.08vw;
+  margin-top: 2.08vw;
+}
+
+.qr-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.qr-image {
+  width: 4.69vw; /* 90px/1920px */
+  height: 4.69vw;
+  margin-bottom: 0.52vw;
+}
+
+.qr-text {
+  color: rgba(255, 255, 255, 1);
+  font-size: 0.94vw;
+  line-height: 0.94vw;
+  text-align: center;
+}
+
+/* 大屏幕 */
+@media (min-width: 1921px) {
+  .contact-container {
+    margin: 40px auto 80px;
+  }
+
+  .contact-icon {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+  }
+
+  .contact-label {
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 8px;
+  }
+
+  .contact-value {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .qr-image {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 10px;
+  }
+
+  .qr-text {
+    font-size: 18px;
+    line-height: 18px;
+  }
+}
+
+/* 中等屏幕 */
+@media (max-width: 1400px) {
+  .contact-container {
+    max-width: 90%;
+  }
+}
+
+/* 小屏幕 */
+@media (max-width: 1200px) {
+  .contact-container {
+    padding: 0 4vw;
+  }
+
+  .contact-icon {
+    width: 3vw;
+    height: 3vw;
+  }
+
+  .contact-label {
+    font-size: 1.2vw;
+  }
+
+  .contact-value {
+    font-size: 1.6vw;
+  }
+
+  .qr-image {
+    width: 8vw;
+    height: 8vw;
+  }
+
+  .qr-text {
+    font-size: 1.2vw;
+  }
+}
+
+/* 移动设备 */
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 0 6vw;
+  }
+
+  .contact-info-item {
+    margin-bottom: 4vw;
+  }
+
+  .contact-icon {
+    width: 6vw;
+    height: 6vw;
+  }
+
+  .contact-label {
+    font-size: 3vw;
+  }
+
+  .contact-value {
+    font-size: 3.5vw;
+  }
+
+  .contact-qr {
+    justify-content: center;
+    gap: 8vw;
+  }
+
+  .qr-image {
+    width: 20vw;
+    height: 20vw;
+  }
+
+  .qr-text {
+    font-size: 3vw;
+  }
+}
+
+/* 修改 section-title 的响应式样式 */
+.section-title {
+  width: 12.71vw; /* 244px / 1920px */
+  height: 3.54vw; /* 68px / 1920px */
+  margin: 4.2vw auto 2.08vw; /* 80px auto 40px */
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* 大屏幕 */
+@media (min-width: 1921px) {
+  .section-title {
+    width: 244px;
+    height: 68px;
+    margin: 80px auto 40px;
+  }
+}
+
+/* 中等屏幕 */
+@media (max-width: 1400px) {
+  .section-title {
+    width: 15vw; /* 稍微调整 */
+    height: 4.18vw; /* 保持宽高比 */
+    margin: 5vw auto 3vw;
+  }
+}
+
+/* 小屏幕 */
+@media (max-width: 1200px) {
+  .section-title {
+    width: 18vw;
+    height: 5.01vw;
+    margin: 6vw auto 4vw;
+  }
+}
+
+/* 移动设备 - 这里重点调整 */
+@media (max-width: 768px) {
+  .section-title {
+    width: 30vw;
+    height: 5.01vw;
+    margin:  6vw auto 4vw;
+  }
+}
+
+/* 超小屏幕 */
+@media (max-width: 480px) {
+  .section-title {
+    width: 35vw; /* 稍微再大一点 */
+    height: 9.75vw;
+    margin: 8vw auto 5vw;
+  }
+}
