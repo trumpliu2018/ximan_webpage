@@ -2279,7 +2279,7 @@
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.94vw;
   line-height: 0.94vw;
-  margin-bottom: 0.42vw;
+  margin-bottom: 0.42vw; /* 默认间距 */
 }
 
 .contact-value {
@@ -2356,6 +2356,10 @@
   .contact-container {
     max-width: 90%;
   }
+
+  .contact-label {
+    margin-bottom: 0.8vw; /* 增加间距 */
+  }
 }
 
 /* 小屏幕 */
@@ -2371,6 +2375,7 @@
 
   .contact-label {
     font-size: 1.2vw;
+    margin-bottom: 1vw; /* 进一步增加间距 */
   }
 
   .contact-value {
@@ -2380,6 +2385,7 @@
   .qr-image {
     width: 8vw;
     height: 8vw;
+    margin-bottom: 2vw;
   }
 
   .qr-text {
@@ -2404,6 +2410,7 @@
 
   .contact-label {
     font-size: 3vw;
+    margin-bottom: 3.5vw; /* 移动端稍微减小间距 */
   }
 
   .contact-value {
