@@ -583,7 +583,7 @@ export default {
           specialSlot1: { lanhutext0: '服务员手机端' },
           slot1: 1
         },
-        { lanhuBg0: 'transparent' }
+        // { lanhuBg0: 'transparent' }
       ],
       partnerLogos: [
         {
