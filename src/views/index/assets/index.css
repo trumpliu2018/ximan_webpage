@@ -1772,16 +1772,17 @@
 
 .group_36 {
   background-color: rgba(22, 25, 34, 1);
-  /* width: 1920px; */
-  /* height: 920px; */
   width: 100vw;
+  padding-top: 4.2vw;
 }
 
 .group_37 {
   background-image: url(./img/79d8e9437a4e4c11865f0a3275844438_mergeImage.png);
-  width: 244px;
-  height: 68px;
-  margin: 84px 0 0 838px;
+  margin: 0 auto 0;
+  width: 12.71vw;
+  height: 3.54vw;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .grid_12 {
