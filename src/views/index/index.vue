@@ -600,6 +600,36 @@ export default {
           src: require('./assets/img/logo_cusion.png'),
           imageClass: 'image_19'
         },
+        {
+          type: 'image',
+          class: 'image-wrapper_4',
+          src: require('./assets/img/logo_true_color.png'),
+          imageClass: 'image_19'
+        },
+        {
+          type: 'image',
+          class: 'image-wrapper_4',
+          src: require('./assets/img/logo_clubbm.png'),
+          imageClass: 'image_19'
+        },
+        {
+          type: 'image',
+          class: 'image-wrapper_4',
+          src: require('./assets/img/logo_bailemen.png'),
+          imageClass: 'image_19'
+        },
+        {
+          type: 'image',
+          class: 'image-wrapper_4',
+          src: require('./assets/img/logo_uclub.png'),
+          imageClass: 'image_19'
+        },
+        {
+          type: 'image',
+          class: 'image-wrapper_4',
+          src: require('./assets/img/logo_sos.png'),
+          imageClass: 'image_19'
+        },
       ],
       constants: {}
     };
