@@ -674,16 +674,10 @@ html, body {
   margin: 18px 0 96px 876px;
 }
 
-.group_6 {
+.group_product {
   background-color: rgba(22, 25, 34, 1);
   height: 47.92vw;
   width: 100vw;
-}
-
-.box_55 {
-  width: 12.71vw;
-  height: 3.54vw;
-  margin: 0 auto 0;
 }
 
 .box_5 {
@@ -694,7 +688,7 @@ html, body {
   background-repeat: no-repeat;
 }
 
-.box_56 {
+.product-container {
   width: 81.04vw;
   height: auto;
   margin: 1.77vw auto 2.60vw;
@@ -702,7 +696,7 @@ html, body {
   justify-content: center;
 }
 
-.grid_10 {
+.product-item {
   width: 66.56vw;
   height: auto;
   display: flex;
@@ -2682,7 +2676,7 @@ html, body {
 .group_59,
 .group_2,
 .group_3,
-.group_6,
+.group_product,
 .group_8 {
   width: 100%;
   max-width: 100%;
@@ -2703,8 +2697,8 @@ img {
 }
 
 /* 修改网格布局容器 */
-.grid_10,
-.box_56 {
+.product-item,
+.product-container {
   width: 100%;
   max-width: 100%;
   overflow-x: hidden;
@@ -2713,8 +2707,8 @@ img {
 @media (max-width: 768px) {
   /* 移动端特别处理 */
   .box_advance,
-  .box_56,
-  .grid_10 {
+  .product-container,
+  .product-item {
     width: 100%;
     padding: 0 4vw;
     box-sizing: border-box;

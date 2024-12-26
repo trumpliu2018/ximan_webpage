@@ -196,11 +196,10 @@
           </div>
         </div>
       </div>
-      <div class="group_6 flex-col">
-        <!-- <div class="box_55 flex-row"><div class="box_5 flex-col"></div></div> -->
+      <div class="group_product flex-col">
         <div class="section-title product"></div>
-        <div class="box_56 flex-row justify-between">
-          <div class="grid_10 flex-row">
+        <div class="product-container flex-row justify-between">
+          <div class="product-item flex-row">
             <div
               class="image-text_6 flex-col"
               :style="{ background: item.lanhuBg0 }"
