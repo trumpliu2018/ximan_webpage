@@ -151,14 +151,36 @@
   height: 45vw;
 }
 
-.box_3 {
-  background-image: url(./img/8da7a0b2aedb46078f0c9a65cdd41bca_mergeImage.png);
-  width: 12.71vw;
-  height: 3.54vw;
-  margin: 4.37vw auto 0;
-  background-size: contain;
-  background-position: center;
+.section-title {
+  width: 12.71vw; /* 244px / 1920px */
+  height: 3.54vw; /* 68px / 1920px */
+  margin: 4.2vw auto 2.08vw; /* 80px auto 40px */
+  background-size: 100% 100%;
   background-repeat: no-repeat;
+  background-position: center;
+}
+
+.section-title.advantage {
+  background-image: url(./img/8da7a0b2aedb46078f0c9a65cdd41bca_mergeImage.png);
+}
+.section-title.product {
+  background-image: url(./img/5721122864ea4f6b90114027355ad705_mergeImage.png);
+}
+
+.section-title.solution {
+  background-image: url(./img/7cd2eff531844b70b901c19d07d0757f_mergeImage.png);
+}
+
+.section-title.hardware {
+  background-image: url(./img/b9cbf9076b414f75bb0cdb6877838bee_mergeImage.png);
+}
+
+.section-title.partner {
+  background-image: url(./img/79d8e9437a4e4c11865f0a3275844438_mergeImage.png);
+}
+
+.section-title.contact {
+  background-image: url(./img/e8379734b5804637a2f886ef2459123e_mergeImage.png);
 }
 
 .box_advance {
@@ -621,20 +643,6 @@
   background-color: rgba(22, 25, 34, 1);
   width: 100vw;
   height: 45vw;
-}
-
-.box_57 {
-  width: 12.71vw;
-  height: 3.54vw;
-  margin: 0 auto 0;
-}
-
-.block_3 {
-  background-image: url(./img/7cd2eff531844b70b901c19d07d0757f_mergeImage.png);
-  width: 12.71vw;
-  height: 3.54vw;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
 }
 
 .box_58 {
@@ -1434,15 +1442,6 @@
     /* height: 45vw; */
 }
 
-.box_12 {
-  background-image: url(./img/b9cbf9076b414f75bb0cdb6877838bee_mergeImage.png);
-  margin: 0 auto 0;
-  width: 12.71vw;
-  height: 3.54vw;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-}
-
 .grid_11 {
   display: flex;
   flex-wrap: wrap;
@@ -1776,15 +1775,6 @@
   padding-top: 4.2vw;
 }
 
-.group_37 {
-  background-image: url(./img/79d8e9437a4e4c11865f0a3275844438_mergeImage.png);
-  margin: 0 auto 0;
-  width: 12.71vw;
-  height: 3.54vw;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-}
-
 .grid_12 {
   width: 1280px;
   height: 494px;
@@ -1959,19 +1949,6 @@
   /* height: 655px;
   margin-bottom: 1px; */
   /* width: 1920px; */
-}
-
-.box_66 {
-  width: 12.71vw;
-  height: 3.54vw;
-  margin: 0 auto 0;
-  padding-top: 4.2vw;
-}
-
-.group_40 {
-  background-image: url(./img/e8379734b5804637a2f886ef2459123e_mergeImage.png);
-  width: 244px;
-  height: 68px;
 }
 
 .box_67 {

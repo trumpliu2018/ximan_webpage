@@ -42,7 +42,8 @@
         />
       </div>
       <div class="group_3 flex-col">
-        <div class="box_3 flex-col"></div>
+        <div class="section-title advantage"></div>
+        
         <div class="box_advance flex-col justify-end">
           <div class="group_4 flex-col">
               <div class="group_5 flex-col">
@@ -154,7 +155,8 @@
         </div>
       </div>
       <div class="group_6 flex-col">
-        <div class="box_55 flex-row"><div class="box_5 flex-col"></div></div>
+        <!-- <div class="box_55 flex-row"><div class="box_5 flex-col"></div></div> -->
+        <div class="section-title product"></div>
         <div class="box_56 flex-row justify-between">
           <div class="grid_10 flex-row">
             <div
@@ -188,7 +190,8 @@
         </div>
       </div>
       <div class="group_8 flex-col">
-        <div class="box_57 flex-row"><div class="block_3 flex-col"></div></div>
+        <!-- <div class="box_57 flex-row"><div class="block_3 flex-col"></div></div> -->
+        <div class="section-title solution"></div>
         <!-- <div class="box_58 flex-row">
           <div class="box_59 flex-col justify-between">
             <div class="text-wrapper_4 flex-col">
@@ -269,7 +272,7 @@
         </div> -->
       </div>
       <div class="group_31 flex-col">
-        <div class="box_12 flex-col"></div>
+        <div class="section-title hardware"></div>
         <div class="grid_11 flex-row">
           <div class="hd_item">
             <div class="hd_left">
@@ -326,7 +329,7 @@
         </div>
       </div>
       <div class="group_36 flex-col">
-        <div class="group_37 flex-col"></div>
+        <div class="section-title partner"></div>
         <div class="logos">
           <div class="logo-item" v-for="(item, index) in partnerLogos" :key="index">
             <img
@@ -338,7 +341,7 @@
         </div>
       </div>
       <div class="group_38 flex-col">
-        <div class="box_66 flex-row"><div class="group_40 flex-col"></div></div>
+        <div class="section-title contact"></div>
         <div class="box_67 flex-row">
           <div class="image-text_45 flex-row justify-between">
             <img
