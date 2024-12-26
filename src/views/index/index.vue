@@ -1,4 +1,4 @@
-<template>
+ <template>
   <div class="page flex-col">
     <div class="box_1 flex-col">
       <div class="group_57 flex-row">
@@ -561,8 +561,14 @@ export default {
         {
           type: 'image',
           class: 'image-wrapper_3',
-          src: require('./assets/img/SketchPng527fcf8fae840207bf3bfc9e99e3a108432011f02b93bf1b86d719c95baa6537.png'),
+          src: require('./assets/img/logo_future.png'),
           imageClass: 'image_18'
+        },
+        {
+          type: 'image',
+          class: 'image-wrapper_4',
+          src: require('./assets/img/logo_zuanshi.png'),
+          imageClass: 'image_19'
         },
         {
           type: 'image',
@@ -577,16 +583,23 @@ export default {
           imageClass: 'image_20'
         },
         {
-          type: 'background',
-          class: 'box_15',
-          backgroundImage: './assets/img/3ce6b01638bd4b8d8ef3a5811d82d2b2_mergeImage.png'
+          type: 'image',
+          class: 'image-wrapper_4',
+          src: require('./assets/img/logo_space.png'),
+          imageClass: 'image_19'
         },
         {
           type: 'image',
-          class: 'image-wrapper_6',
-          src: require('./assets/img/SketchPng5a54dc888b55ca5e0952a06ccb4b6a9372dbc260c317678aecb8e30c29fe4d0d.png'),
-          imageClass: 'image_21'
-        }
+          class: 'image-wrapper_4',
+          src: require('./assets/img/logo_muse.png'),
+          imageClass: 'image_19'
+        },
+        {
+          type: 'image',
+          class: 'image-wrapper_4',
+          src: require('./assets/img/logo_cusion.png'),
+          imageClass: 'image_19'
+        },
       ],
       constants: {}
     };
