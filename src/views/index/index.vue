@@ -189,7 +189,7 @@
       </div>
       <div class="group_8 flex-col">
         <div class="box_57 flex-row"><div class="block_3 flex-col"></div></div>
-        <div class="box_58 flex-row">
+        <!-- <div class="box_58 flex-row">
           <div class="box_59 flex-col justify-between">
             <div class="text-wrapper_4 flex-col">
               <span class="text_9">筛选即将生日的客户，发送祝福或卡券等；唤醒客户</span>
@@ -266,7 +266,7 @@
             <div class="text-wrapper_22 flex-col"><span class="text_27">扫码点单</span></div>
             <div class="text-wrapper_23 flex-col"><span class="text_28">客户营销</span></div>
           </div>
-        </div>
+        </div> -->
       </div>
       <div class="group_31 flex-col">
         <div class="box_12 flex-col"></div>
@@ -327,70 +327,14 @@
       </div>
       <div class="group_36 flex-col">
         <div class="group_37 flex-col"></div>
-        <div class="grid_12 flex-row">
-          <div class="image-wrapper_1 flex-col">
+        <div class="logos">
+          <div class="logo-item" v-for="(item, index) in partnerLogos" :key="index">
             <img
-              class="image_16"
+              class="logo-item-img"
               referrerpolicy="no-referrer"
-              src="./assets/img/SketchPng728b5e5cba5c5e06838a20da92c8a37d77d37c68c47f070b6c599069275439c1.png"
+              :src="item.src"
             />
           </div>
-          <div class="image-wrapper_2 flex-col">
-            <img
-              class="image_17"
-              referrerpolicy="no-referrer"
-              src="./assets/img/SketchPngc6b6bf1dbaa3b926f6d25c25096dc64110be2aa272ce736988408340b330a2ed.png"
-            />
-          </div>
-          <div class="image-wrapper_3 flex-col">
-            <img
-              class="image_18"
-              referrerpolicy="no-referrer"
-              src="./assets/img/SketchPng527fcf8fae840207bf3bfc9e99e3a108432011f02b93bf1b86d719c95baa6537.png"
-            />
-          </div>
-          <div class="box_13 flex-col"></div>
-          <div class="box_14 flex-col"></div>
-          <div class="image-wrapper_4 flex-col">
-            <img
-              class="image_19"
-              referrerpolicy="no-referrer"
-              src="./assets/img/SketchPngda9347a11a3faa7e64b35092e9c62d8a9ad1aad92abbe4882d078407783645f5.png"
-            />
-          </div>
-          <div class="image-wrapper_5 flex-col">
-            <img
-              class="image_20"
-              referrerpolicy="no-referrer"
-              src="./assets/img/SketchPng6d2a22ef41e61aed89f52fc3170e113a366e4f207858ba5275e8ae0d3358c6d1.png"
-            />
-          </div>
-          <div class="box_15 flex-col"></div>
-          <div class="image-wrapper_6 flex-col">
-            <img
-              class="image_21"
-              referrerpolicy="no-referrer"
-              src="./assets/img/SketchPng5a54dc888b55ca5e0952a06ccb4b6a9372dbc260c317678aecb8e30c29fe4d0d.png"
-            />
-          </div>
-          <div class="box_16 flex-col"></div>
-          <div class="image-wrapper_7 flex-col">
-            <img
-              class="image_22"
-              referrerpolicy="no-referrer"
-              src="./assets/img/SketchPng596e9589e83b94984fc215336aae7f0cc69da512cbc52a346cc29a0dbea75a5c.png"
-            />
-          </div>
-          <div class="box_17 flex-col"></div>
-          <div class="image-wrapper_8 flex-col">
-            <img
-              class="image_23"
-              referrerpolicy="no-referrer"
-              src="./assets/img/SketchPngdb7ebc02b0d699bc0d2d59dd2263ae90d27d3b4230b2118b537e9865385216f6.png"
-            />
-          </div>
-          <div class="box_18 flex-col"></div>
-          <div class="box_19 flex-col"><div class="box_20 flex-col"></div></div>
         </div>
       </div>
       <div class="group_38 flex-col">
@@ -593,6 +537,56 @@ export default {
           slot1: 1
         },
         { lanhuBg0: 'transparent' }
+      ],
+      partnerLogos: [
+        {
+          type: 'image',
+          class: 'image-wrapper_1',
+          src: require('./assets/img/SketchPng728b5e5cba5c5e06838a20da92c8a37d77d37c68c47f070b6c599069275439c1.png'),
+          imageClass: 'image_16'
+        },
+        {
+          type: 'image',
+          class: 'image-wrapper_2',
+          src: require('./assets/img/SketchPngc6b6bf1dbaa3b926f6d25c25096dc64110be2aa272ce736988408340b330a2ed.png'),
+          imageClass: 'image_17'
+        },
+        {
+          type: 'image',
+          class: 'image-wrapper_3',
+          src: require('./assets/img/SketchPng527fcf8fae840207bf3bfc9e99e3a108432011f02b93bf1b86d719c95baa6537.png'),
+          imageClass: 'image_18'
+        },
+        //future
+        {
+          type: 'image',
+          class: 'image-wrapper_3',
+          src: require('./assets/img/SketchPng527fcf8fae840207bf3bfc9e99e3a108432011f02b93bf1b86d719c95baa6537.png'),
+          imageClass: 'image_18'
+        },
+        {
+          type: 'image',
+          class: 'image-wrapper_4',
+          src: require('./assets/img/SketchPngda9347a11a3faa7e64b35092e9c62d8a9ad1aad92abbe4882d078407783645f5.png'),
+          imageClass: 'image_19'
+        },
+        {
+          type: 'image',
+          class: 'image-wrapper_5',
+          src: require('./assets/img/SketchPng6d2a22ef41e61aed89f52fc3170e113a366e4f207858ba5275e8ae0d3358c6d1.png'),
+          imageClass: 'image_20'
+        },
+        {
+          type: 'background',
+          class: 'box_15',
+          backgroundImage: './assets/img/3ce6b01638bd4b8d8ef3a5811d82d2b2_mergeImage.png'
+        },
+        {
+          type: 'image',
+          class: 'image-wrapper_6',
+          src: require('./assets/img/SketchPng5a54dc888b55ca5e0952a06ccb4b6a9372dbc260c317678aecb8e30c29fe4d0d.png'),
+          imageClass: 'image_21'
+        }
       ],
       constants: {}
     };
