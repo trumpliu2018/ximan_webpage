@@ -271,54 +271,57 @@
       <div class="group_31 flex-col">
         <div class="box_12 flex-col"></div>
         <div class="grid_11 flex-row">
-          <div class="group_32 flex-row">
-            <div class="text-group_33 flex-col justify-between">
-              <span class="text_29">一体机</span>
-              <span class="text_30">外观美观，节省空间</span>
+          <div class="hd_item">
+            <div class="hd_left">
+              <span class="title_hd">一体机</span>
+              <span class="desc_hd">外观美观，节省空间</span>
             </div>
-            <img
-              class="image_12"
+            <div class="hd_right">
+              <img
+              class="image_hd"
               referrerpolicy="no-referrer"
               src="./assets/img/SketchPng925610d465c48e3d7d8c654f9461dc27d51cee2b0496ab556e3068d909ac892c.png"
             />
-          </div>
-          <div class="group_33 flex-row">
-            <div class="text-wrapper_33 flex-col justify-between">
-              <span class="text_31">台式机</span>
-              <span class="text_32">X86架构运行Win10系统的PC机，兼容现有设备</span>
             </div>
-            <img
-              class="image_28"
+          </div>
+          <div class="hd_item">
+            <div class="hd_left">
+              <span class="title_hd">台式机</span>
+              <span class="desc_hd">X86架构运行Win10系统的PC机，兼容现有设备</span>
+            </div>
+            <div class="hd_right">
+              <img
+              class="image_hd"
               referrerpolicy="no-referrer"
               src="./assets/img/SketchPng8719128cddfb44ac8595662f4f820cbb75f9ead32ce71bec96eba2048c3da506.png"
             />
-          </div>
-          <div class="group_34 flex-row">
-            <div class="text-group_34 flex-col justify-between">
-              <span class="text_33">出品打印机</span>
-              <span class="text_34">不管是针式还是热敏，我们统统支持打印纸宽度80充满，即插即用</span>
             </div>
-            <img
-              class="image_14"
-              referrerpolicy="no-referrer"
-              src="./assets/img/SketchPng60a02ecf3f980a371496300a2bc2485e5b7c19b5bc743b40c1873a1ad5e172c2.png"
-            />
-            <img
-              class="image_29"
-              referrerpolicy="no-referrer"
-              src="./assets/img/SketchPng83ecc4c2b1c8c8c3eaa46f2d41283a746f91c98c5233f75c71a37608ecab70f6.png"
-            />
           </div>
-          <div class="group_35 flex-row">
-            <div class="text-group_35 flex-col justify-between">
-              <span class="text_35">安卓平板</span>
-              <span class="text_36">方便快捷，提升门店形象</span>
+          <div class="hd_item">
+            <div class="hd_left">
+              <span class="title_hd">出品打印机</span>
+              <span class="desc_hd">不管是针式还是热敏，我们统统支持打印纸宽度80充满，即插即用</span>
             </div>
-            <img
-              class="image_30"
+            <div class="hd_right">
+              <img
+              class="image_hd"
+              referrerpolicy="no-referrer"
+              src="./assets/img/printer.png"
+            />
+            </div>
+          </div>
+          <div class="hd_item">
+            <div class="hd_left">
+              <span class="title_hd">安卓平板</span>
+              <span class="desc_hd">方便快捷，提升门店形象</span>
+            </div>
+            <div clas="hd_right">
+              <img
+              class="image_hd"
               referrerpolicy="no-referrer"
               src="./assets/img/SketchPngf3b2e874ac9f85cb48ee89fea3b4926b30e69cf4cebc57703fbbf83b3312ae7f.png"
             />
+            </div>
           </div>
         </div>
       </div>
