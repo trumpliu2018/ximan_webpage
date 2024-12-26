@@ -1,5 +1,35 @@
 <template>
   <div class="page flex-col">
+    <header class="nav-header">
+      <div class="nav-container">
+        <div class="nav-brand">
+          <img
+            class="nav-logo"
+            referrerpolicy="no-referrer"
+            src="./assets/img/SketchPng253939487cc69e2d3210583867c4555f11ab8b7fcd8e2a850ec0171fe7c75e0f.png"
+          />
+          <img
+            class="nav-logo-text"
+            referrerpolicy="no-referrer"
+            src="./assets/img/SketchPngdd49a075fe01db3c84fef761c74d6d1e6f6fe799c41ef687ad3caa870451cec2.png"
+          />
+        </div>
+        
+        <nav class="nav-menu" :class="{ active: isMenuOpen }">
+          <div class="nav-item">
+            首页
+            <div class="nav-indicator"></div>
+          </div>
+          <div class="nav-item inactive">关于我们</div>
+        </nav>
+
+        <div class="nav-burger" @click="toggleMenu">
+          <div class="burger-line"></div>
+          <div class="burger-line"></div>
+          <div class="burger-line"></div>
+        </div>
+      </div>
+    </header>
     <div class="box_1 flex-col">
       <div class="group_57 flex-row">
         <img
@@ -89,7 +119,7 @@
                     <br />
                     手机端直接下单、优惠、查单等
                     <br />
-                    高层管理人员实时查看门店经营
+                    高层管理人员实时查看门店���营
                   </span>
                 </div>
                 
@@ -149,7 +179,7 @@
                 referrerpolicy="no-referrer"
                 src="./assets/img/SketchPng1995a4b8286753a8eaf7e400d422f4d74b1c274c9925c12ca1b7d82f4d21b172.png"
               />
-              <span class="text-group_5">丰富的决策支持</span>
+              <span class="text-group_5">丰富的���策支持</span>
             </div>
           </div>
         </div>
@@ -637,10 +667,15 @@ export default {
           imageClass: 'image_19'
         },
       ],
-      constants: {}
+      constants: {},
+      isMenuOpen: false
     };
   },
-  methods: {}
+  methods: {
+    toggleMenu() {
+      this.isMenuOpen = !this.isMenuOpen;
+    }
+  }
 };
 </script>
 <style scoped lang="css" src="./assets/index.css" />
