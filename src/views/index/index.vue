@@ -1,23 +1,6 @@
 <template>
   <div class="page flex-col">
     <Header />
-    <div class="box_1 flex-col">
-      <div class="group_57 flex-row">
-        <img
-          class="image_1"
-          referrerpolicy="no-referrer"
-          src="./assets/img/SketchPng253939487cc69e2d3210583867c4555f11ab8b7fcd8e2a850ec0171fe7c75e0f.png"
-        />
-        <img
-          class="image_2"
-          referrerpolicy="no-referrer"
-          src="./assets/img/SketchPngdd49a075fe01db3c84fef761c74d6d1e6f6fe799c41ef687ad3caa870451cec2.png"
-        />
-        <span class="text_1">首页</span>
-        <span class="text_2">关于我们</span>
-      </div>
-      <div class="group_58 flex-row"><div class="group_1 flex-col"></div></div>
-    </div>
     <div class="group_59 flex-col">
       <div class="group_2 flex-col">
         <img
