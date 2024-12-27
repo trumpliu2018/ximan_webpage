@@ -2832,6 +2832,9 @@ html, body {
     height: 5.01vw;
     margin:  6vw auto 4vw;
   }
+  .group_2 {
+    margin-top: 12vw;
+  }
 }
 
 /* 超小屏幕 */
@@ -2840,6 +2843,9 @@ html, body {
     width: 35vw; /* 稍微再大一点 */
     height: 9.75vw;
     margin: 8vw auto 5vw;
+  }
+  .group_2 {
+    margin-top: 12vw;
   }
 }
 

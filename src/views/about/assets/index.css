@@ -99,11 +99,18 @@
   position: relative;
 }
 
+.group_5-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 84px 0;
+}
+
 .group_5 {
   background-image: url(./img/614e3e70dc874906b5b3d7ec85436dab_mergeImage.png);
   width: 244px;
   height: 68px;
-  margin: 84px 0 0 436px;
 }
 
 .group_6 {
@@ -426,4 +433,20 @@
   white-space: nowrap;
   line-height: 18px;
   margin: 10px 0 0 4px;
+}
+
+@media (max-width: 768px) {
+  .group_5 {
+    width: 180px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 480px) {
+  .group_5 {
+    width: 140px;
+    height: 40px;
+  }
 }
