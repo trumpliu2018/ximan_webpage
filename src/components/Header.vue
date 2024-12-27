@@ -1,6 +1,11 @@
 <template>
   <header class="nav-header">
     <div class="nav-container">
+      <div class="nav-burger" @click="toggleMenu">
+        <div class="burger-line"></div>
+        <div class="burger-line"></div>
+        <div class="burger-line"></div>
+      </div>
       <div class="nav-left">
         <div class="nav-brand">
           <img
@@ -37,12 +42,6 @@
             <div v-if="$route.path === '/about'" class="nav-indicator"></div>
           </router-link>
         </nav>
-      </div>
-
-      <div class="nav-burger" @click="toggleMenu">
-        <div class="burger-line"></div>
-        <div class="burger-line"></div>
-        <div class="burger-line"></div>
       </div>
     </div>
   </header>
