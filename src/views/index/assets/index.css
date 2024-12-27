@@ -381,14 +381,17 @@ html, body {
   padding: 0 2vw;
 }
 
+/* 修改 paragraph_1 的样式 */
 .paragraph_1 {
   color: rgba(255, 255, 255, 0.5);
   font-size: 1.04vw; /* 20px/1920px */
   line-height: 1.1vw;
+  white-space: nowrap; /* 添加这行确保文字不换行 */
 }
 
 .paragraph_1 span {
   display: block;
+  white-space: nowrap; /* 确保每个 span 内的文字也不换行 */
 }
 
 /* 默认样式 (1401px - 1920px) */
@@ -485,10 +488,12 @@ html, body {
   .paragraph_1 {
     font-size: 3.8vw;
     line-height: 3.5vw !important; /* 增加段落行高 */
+    white-space: nowrap;
   }
 
   .paragraph_1 span {
     margin-bottom: 1vw; /* 增加文本行间距 */
+    white-space: nowrap;
   }
 }
 
@@ -508,10 +513,12 @@ html, body {
   .paragraph_1 {
     font-size: 3.8vw;
     line-height: 3.5vw !important; /* 更大的行高 */
+    white-space: nowrap;
   }
 
   .paragraph_1 span {
     margin-bottom: 1vw; /* 更大的文本行间距 */
+    white-space: nowrap;
   }
 }
 
@@ -773,7 +780,7 @@ html, body {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  aspect-ratio: 1.2;
+  /* aspect-ratio: 1.2; */
 }
 
 .image_11 {
@@ -814,7 +821,7 @@ html, body {
 /* 中等屏幕 - 4列布局 */
 @media (max-width: 1400px) {
   .product-container {
-    max-width: 90%;
+    max-width: 80%;
   }
 
   .product-item {
@@ -1815,7 +1822,7 @@ html, body {
   justify-content: space-between;
   background: rgba(35, 39, 54, 1);
   border-radius: 0.42vw;
-  padding: 1.25vw;
+  padding: 1.5vw;
 }
 
 .hd_left {
@@ -2864,7 +2871,7 @@ img {
 .product-item,
 .product-container {
   width: 100%;
-  max-width: 100%;
+  max-width: 1280px;
   overflow-x: hidden;
 }
 

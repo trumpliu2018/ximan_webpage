@@ -126,7 +126,7 @@
               v-for="(item, index) in loopData0"
               :key="index"
             >
-              <div v-if="item.slot3 === 3" class="group_7 flex-row">
+              <!-- <div v-if="item.slot3 === 3" class="group_7 flex-row">
                 <div class="image-text_43 flex-col justify-between">
                   <img
                     class="label_5"
@@ -138,7 +138,7 @@
                     <span class="text_8">在线赠送、业绩查询、现抽查询等</span>
                   </div>
                 </div>
-              </div>
+              </div> -->
               <img
                 v-if="item.slot2 === 2"
                 class="image_11"
@@ -264,7 +264,7 @@
           <div class="hd_item">
             <div class="hd_left">
               <span class="title_hd">出品打印机</span>
-              <span class="desc_hd">不管是针式还是热敏，我们统统支持打印纸宽度80��满，即插即用</span>
+              <span class="desc_hd">不管是针式还是热敏，我们统统支持打印纸宽度80充满，即插即用</span>
             </div>
             <div class="hd_right">
               <img
