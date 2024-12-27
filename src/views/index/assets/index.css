@@ -474,20 +474,20 @@ html, body {
   }
 
   .advance_title {
-    font-size: 4.2vw !important;
+    font-size: 3.2vw !important;
     margin-bottom: 4vw !important;
     line-height: 5vw !important; /* 增加标题行高 */
   }
   
   .advantage-section {
-    margin-left: 20.5vw;
+    margin-left: 28.5vw;
     margin-top: -2vw;
     margin-bottom: 8vw;
   }
   
   .paragraph_1 {
-    font-size: 3.8vw;
-    line-height: 3.5vw !important; /* 增加段落行高 */
+    font-size: 2.8vw;
+    line-height: 3vw !important; /* 增加段落行高 */
     white-space: nowrap;
   }
 
@@ -505,14 +505,14 @@ html, body {
   }
 
   .advantage-section {
-    margin-left: 20.5vw;
+    margin-left: 28.5vw;
     margin-top: -2vw;
     margin-bottom: 8vw;
   }
 
   .paragraph_1 {
-    font-size: 3.8vw;
-    line-height: 3.5vw !important; /* 更大的行高 */
+    font-size: 2.8vw;
+    line-height: 3vw !important; /* 增加段落行高 */
     white-space: nowrap;
   }
 
@@ -2543,7 +2543,7 @@ html, body {
   width: 100%;
   max-width: 1280px;
   margin: 3.23vw auto 11.04vw; /* 62px 0 212px */
-  justify-content: center;
+  /* justify-content: center; */
   padding: 0 2vw;
 }
 
@@ -2984,8 +2984,8 @@ img {
   }
 
   .advance_items_mobile .advance_item img {
-    width: 15vw;
-    height: 15vw;
+    width: 12vw;
+    height: 12vw;
     object-fit: contain;
   }
 
@@ -3014,12 +3014,12 @@ img {
   }
 
   .advance_items_mobile .advance_item img {
-    width: 18vw;
-    height: 18vw;
+    width: 12vw;
+    height: 12vw;
   }
 
   .advance_items_mobile .advance_item span {
-    font-size: 3.5vw;
+    font-size: 2.5vw;
     white-space: normal;
     text-align: center;
   }
