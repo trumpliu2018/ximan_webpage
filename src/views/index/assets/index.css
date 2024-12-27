@@ -2904,6 +2904,10 @@ img {
   justify-content: center;
   gap: 4vw;
   margin: 6vw 0;
+  background-image: url(./img/bf79a5ab40424f81b97279d40ba6097e_mergeImage.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .advance_items_mobile .advance_item {
@@ -2977,7 +2981,7 @@ img {
   }
 
   .advance_items_mobile .advance_item img {
-    max-width: 20vw;
+    max-width: 15vw;
   }
 
   .advance_items_mobile .advance_item span {
@@ -2988,7 +2992,8 @@ img {
 /* 超小屏幕 */
 @media (max-width: 480px) {
   .advance_items_mobile {
-    padding: 0 4vw;
+    /* padding: 0 4vw; */
+    margin-top: 20vw;
     gap: 8vw 4vw;
   }
 
@@ -2998,7 +3003,7 @@ img {
   }
 
   .advance_items_mobile .advance_item img {
-    max-width: 25vw;
+    max-width: 15vw;
   }
 
   .advance_items_mobile .advance_item span {
