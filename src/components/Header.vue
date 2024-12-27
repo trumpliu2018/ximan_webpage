@@ -1,41 +1,43 @@
 <template>
   <header class="nav-header">
     <div class="nav-container">
-      <div class="nav-brand">
-        <img
-          class="nav-logo"
-          referrerpolicy="no-referrer"
-          src="@/views/index/assets/img/SketchPng253939487cc69e2d3210583867c4555f11ab8b7fcd8e2a850ec0171fe7c75e0f.png"
-        />
-        <img
-          class="nav-logo-text"
-          referrerpolicy="no-referrer"
-          src="@/views/index/assets/img/SketchPngdd49a075fe01db3c84fef761c74d6d1e6f6fe799c41ef687ad3caa870451cec2.png"
-        />
+      <div class="nav-left">
+        <div class="nav-brand">
+          <img
+            class="nav-logo"
+            referrerpolicy="no-referrer"
+            src="@/views/index/assets/img/SketchPng253939487cc69e2d3210583867c4555f11ab8b7fcd8e2a850ec0171fe7c75e0f.png"
+          />
+          <img
+            class="nav-logo-text"
+            referrerpolicy="no-referrer"
+            src="@/views/index/assets/img/SketchPngdd49a075fe01db3c84fef761c74d6d1e6f6fe799c41ef687ad3caa870451cec2.png"
+          />
+        </div>
+
+        <nav class="nav-menu" :class="{ active: isMenuOpen }">
+          <router-link
+            to="/index"
+            class="nav-item"
+            :class="{ active: $route.path === '/index' }"
+          >
+            首页
+            <div v-if="$route.path === '/index'" class="nav-indicator"></div>
+          </router-link>
+
+          <router-link
+            to="/about"
+            class="nav-item"
+            :class="{
+              inactive: $route.path !== '/about',
+              active: $route.path === '/about',
+            }"
+          >
+            关于我们
+            <div v-if="$route.path === '/about'" class="nav-indicator"></div>
+          </router-link>
+        </nav>
       </div>
-
-      <nav class="nav-menu" :class="{ active: isMenuOpen }">
-        <router-link
-          to="/index"
-          class="nav-item"
-          :class="{ active: $route.path === '/index' }"
-        >
-          首页
-          <div v-if="$route.path === '/index'" class="nav-indicator"></div>
-        </router-link>
-
-        <router-link
-          to="/about"
-          class="nav-item"
-          :class="{
-            inactive: $route.path !== '/about',
-            active: $route.path === '/about',
-          }"
-        >
-          关于我们
-          <div v-if="$route.path === '/about'" class="nav-indicator"></div>
-        </router-link>
-      </nav>
 
       <div class="nav-burger" @click="toggleMenu">
         <div class="burger-line"></div>
@@ -93,6 +95,12 @@
     justify-content: space-between;
   }
 
+  .nav-left {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+  }
+
   .nav-brand {
     display: flex;
     align-items: center;
@@ -112,7 +120,7 @@
   .nav-menu {
     display: flex;
     align-items: center;
-    gap: 85px;
+    gap: 40px;
   }
 
   .nav-item {
@@ -122,6 +130,7 @@
     cursor: pointer;
     text-decoration: none;
     position: relative;
+    padding-bottom: 8px;
   }
 
   .nav-item.inactive {
@@ -130,7 +139,7 @@
 
   .nav-item.active .nav-indicator {
     position: absolute;
-    bottom: -5px;
+    bottom: -2px;
     left: 50%;
     transform: translateX(-50%);
     width: 70px;
@@ -217,6 +226,10 @@
       height: 30px;
     }
 
+    .nav-left {
+      gap: 24px;
+    }
+
     .nav-menu {
       display: none;
       position: fixed;
@@ -227,8 +240,8 @@
       flex-direction: column;
       padding: 20px 0;
       gap: 20px;
-      align-items: flex-end;
-      padding-right: 4vw;
+      align-items: flex-start;
+      padding-left: 4vw;
     }
 
     .nav-menu.active {
@@ -253,6 +266,14 @@
       position: absolute;
       bottom: -4px;
       width: 40px;
+    }
+
+    .nav-item {
+      padding-bottom: 4px;
+    }
+
+    .nav-item.active .nav-indicator {
+      bottom: -4px;
     }
   }
 </style>

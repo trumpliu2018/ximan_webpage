@@ -409,10 +409,10 @@ html, body {
   }
   
   .paragraph_1 {
-    font-size: 1vw;   
+    font-size: 0.8vw;   
   }
   .box_53 {
-    margin-top: 2.5vw !important;
+    margin-top: 7.5vw !important;
   }
   .box_54 {
     margin-top: 2.5vw !important;
@@ -434,10 +434,10 @@ html, body {
     font-size: 1vw;
   }
   .box_53 {
-    margin-top: 2vw !important;
+    margin-top: 7.5vw !important;
   }
   .box_54 {
-    margin-top: 2vw !important;
+    margin-top: 2.5vw !important;
   }
 }
 
@@ -554,7 +554,7 @@ html, body {
 }
 
 .box_53 {
-  width: 63.54vw;
+  /* width: 63.54vw; */
   height: 10.42vw;
   margin: -0.10vw auto 0;
   display: flex;
@@ -658,7 +658,7 @@ html, body {
 .image-text_middle {
   width: 8.75vw;
   height: 9.79vw;
-  margin-top: 6vw;
+  margin-top: 8vw;
 }
 
 .image_8 {
