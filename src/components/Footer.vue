@@ -151,12 +151,15 @@
   }
 
   .contact-content {
-    display: flex;
+    /* display: flex; */
     gap: 10px;
     align-items: center;
   }
 
-  .contact-label,
+  .contact-label {
+    color: rgba(255,255,255,0.5);
+    font-size: 16px;
+  }
   .contact-value {
     color: white;
     font-size: 16px;
