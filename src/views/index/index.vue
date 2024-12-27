@@ -159,9 +159,17 @@
           </div>
         </div>
         <div class="advance_items_mobile">
-          <div class="advance_item" v-for="(item, index) in advance_items_mobile" :key="index">
-            <img :src="item.src" />
-            <span>{{ item.title }}</span>
+          <div class="top-row">
+            <div class="advance_item" v-for="(item, index) in advance_items_mobile.slice(0, 2)" :key="index">
+              <img :src="item.src" />
+              <span>{{ item.title }}</span>
+            </div>
+          </div>
+          <div class="bottom-row">
+            <div class="advance_item" v-for="(item, index) in advance_items_mobile.slice(2, 5)" :key="index + 2">
+              <img :src="item.src" />
+              <span>{{ item.title }}</span>
+            </div>
           </div>
         </div>
         
