@@ -112,7 +112,7 @@
               </div>
             </div>
         </div>
-        <div class="box_4 flex-col justify-end"> 
+        <div class="advance_items flex-col justify-end"> 
           <div class="box_53 flex-row justify-between">
             <div class="image-text_39 flex-col justify-between">
               <img
@@ -158,6 +158,13 @@
             </div>
           </div>
         </div>
+        <div class="advance_items_mobile">
+          <div class="advance_item" v-for="(item, index) in advance_items_mobile" :key="index">
+            <img :src="item.src" />
+            <span>{{ item.title }}</span>
+          </div>
+        </div>
+        
       </div>
       <div class="group_product flex-col">
         <div class="section-title product"></div>
@@ -640,6 +647,29 @@ export default {
           src: require('./assets/img/logo_sos.png'),
           imageClass: 'image_19'
         },
+      ],
+      advance_items_mobile: [
+        {
+          src: require('./assets/img/SketchPng148e2a44605b3b73db3ca3398e69d5c893c9a88df96fd4a54b6cb2cb3eb55bdb.png'),
+          title: '精准的成本控制'
+        },
+        {
+          src: require('./assets/img/SketchPngb7ba686d591483a0340a14716395c41a07367067534194923c19c28b6d351857.png'),
+          title: '完善的财务管理'
+        },
+        {
+          src: require('./assets/img/SketchPngf67e2e054213b203cd6a31b9df9b6ebce5bf63b48ae0742ad9256c7923a5063c.png'),
+          title: '灵活的会员方案'
+        },
+        {
+          src: require('./assets/img/SketchPng9ebf4e1824fc32e7a26e08f055ea019b463fae944eb43b73a7eafb4550330f1c.png'),
+          title: '便捷的网络支付'
+        }, 
+        {
+          src: require('./assets/img/SketchPng1995a4b8286753a8eaf7e400d422f4d74b1c274c9925c12ca1b7d82f4d21b172.png'),
+          title: '丰富的策略支持'
+        },
+
       ],
       constants: {},
       isMenuOpen: false
