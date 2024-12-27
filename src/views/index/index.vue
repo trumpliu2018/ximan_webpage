@@ -1,47 +1,6 @@
 <template>
   <div class="page flex-col">
-    <header class="nav-header">
-      <div class="nav-container">
-        <div class="nav-brand">
-          <img
-            class="nav-logo"
-            referrerpolicy="no-referrer"
-            src="./assets/img/SketchPng253939487cc69e2d3210583867c4555f11ab8b7fcd8e2a850ec0171fe7c75e0f.png"
-          />
-          <img
-            class="nav-logo-text"
-            referrerpolicy="no-referrer"
-            src="./assets/img/SketchPngdd49a075fe01db3c84fef761c74d6d1e6f6fe799c41ef687ad3caa870451cec2.png"
-          />
-        </div>
-        
-        <nav class="nav-menu" :class="{ active: isMenuOpen }">
-          <router-link 
-            to="/index" 
-            class="nav-item"
-            :class="{ active: $route.path === '/index' }"
-          >
-            首页
-            <div v-if="$route.path === '/index'" class="nav-indicator"></div>
-          </router-link>
-          
-          <router-link 
-            to="/about" 
-            class="nav-item"
-            :class="{ inactive: $route.path !== '/about', active: $route.path === '/about' }"
-          >
-            关于我们
-            <div v-if="$route.path === '/about'" class="nav-indicator"></div>
-          </router-link>
-        </nav>
-
-        <div class="nav-burger" @click="toggleMenu">
-          <div class="burger-line"></div>
-          <div class="burger-line"></div>
-          <div class="burger-line"></div>
-        </div>
-      </div>
-    </header>
+    <Header />
     <div class="box_1 flex-col">
       <div class="group_57 flex-row">
         <img
@@ -282,7 +241,7 @@
             <div class="block_11 flex-col"><div class="block_12 flex-col"></div></div>
             <div class="text-wrapper_17 flex-col"><span class="text_22">注册大礼包</span></div>
             <div class="text-wrapper_18 flex-col"><span class="text_23">叫号大屏</span></div>
-            <div class="text-wrapper_19 flex-col"><span class="text_24">生日提醒</span></div>
+            <div class="text-wrapper_19 flex-col"><span class="text_24">生日���醒</span></div>
             <div class="text-wrapper_20 flex-col"><span class="text_25">定时任务</span></div>
             <div class="text-wrapper_21 flex-col"><span class="text_26">进销存</span></div>
             <div class="text-wrapper_22 flex-col"><span class="text_27">扫码点单</span></div>
@@ -359,74 +318,19 @@
           </div>
         </div>
       </div>
-      <div class="group_38 flex-col">
-        <div class="section-title contact"></div>
-        <div class="contact-container">
-          <!-- 电话 -->
-          <div class="contact-info-item">
-            <img
-              class="contact-icon"
-              referrerpolicy="no-referrer"
-              src="./assets/img/SketchPng16d0665d181919fdda48ddbe647aa8003d4054ac42eed6cfe9d478ab37d13302.png"
-            />
-            <div class="contact-content">
-              <div class="contact-label">联系电话：</div>
-              <div class="contact-value">18276765363</div>
-            </div>
-          </div>
-
-          <!-- 地址 -->
-          <div class="contact-info-item">
-            <img
-              class="contact-icon"
-              referrerpolicy="no-referrer"
-              src="./assets/img/SketchPng6717dd8d4f83e9138d5578592a2bc2364917f8fe43b800b09c72822f1ccc23be.png"
-            />
-            <div class="contact-content">
-              <div class="contact-label">地址：</div>
-              <div class="contact-value">上海市闵行区1688号可视对讲凹回</div>
-            </div>
-          </div>
-
-          <!-- 邮箱 -->
-          <div class="contact-info-item">
-            <img
-              class="contact-icon"
-              referrerpolicy="no-referrer"
-              src="./assets/img/SketchPng89b1280114c2f514f53bf135ff000a02e03da1e4f2885c68f5f59c4f578c81b2.png"
-            />
-            <div class="contact-content">
-              <div class="contact-label">邮箱：</div>
-              <div class="contact-value">18276765363@xmsj.com</div>
-            </div>
-          </div>
-
-          <!-- 二维码 -->
-          <div class="contact-qr">
-            <div class="qr-item">
-              <img
-                class="qr-image"
-                referrerpolicy="no-referrer"
-                src="./assets/img/SketchPngcd8e450b5c62f460137112bb10b6bf6bac477563d4d3e8fc4cf3a085ba517581.png"
-              />
-              <span class="qr-text">客服1微信</span>
-            </div>
-            <div class="qr-item">
-              <img
-                class="qr-image"
-                referrerpolicy="no-referrer"
-                src="./assets/img/SketchPngcd8e450b5c62f460137112bb10b6bf6bac477563d4d3e8fc4cf3a085ba517581.png"
-              />
-              <span class="qr-text">客服2微信</span>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Footer />
     </div>
   </div>
 </template>
 <script>
+import Header from '@/components/Header.vue'
+import Footer from '@/components/Footer.vue'
+
 export default {
+  components: {
+    Header,
+    Footer
+  },
   data() {
     return {
       loopData0: [
@@ -679,17 +583,10 @@ export default {
         },
 
       ],
-      constants: {},
-      isMenuOpen: false
+      constants: {}
     };
   },
   methods: {
-    toggleMenu() {
-      this.isMenuOpen = !this.isMenuOpen;
-    },
-    closeMenu() {
-      this.isMenuOpen = false;
-    }
   },
   watch: {
     $route() {
