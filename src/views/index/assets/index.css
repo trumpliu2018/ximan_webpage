@@ -3256,3 +3256,166 @@ img {
     max-width: 80vw;
   }
 }
+
+/* 修改中等屏幕样式 */
+@media screen and (max-width: 1400px) {
+  .solution-container {
+    background-size: 60% auto;
+  }
+
+  .dot {
+    width: 0.25vw; /* 更小的圆点 */
+    height: 0.25vw;
+  }
+}
+
+/* 小屏幕样式 */
+@media screen and (max-width: 768px) {
+  .solution-container {
+    height: 600px;
+    padding: 0 4vw;
+    background-size: 70% auto;
+  }
+
+  .tag-item {
+    font-size: 2.2vw; /* 增大字体 */
+    padding: 1vw 2vw;
+    border-radius: 1.2vw; /* 增大圆角 */
+  }
+
+  .dot {
+    width: 0.2vw; /* 更小的圆点 */
+    height: 0.2vw;
+  }
+
+  .tag-desc {
+    display: none !important; /* 强制隐藏描述 */
+  }
+
+  /* 调整特定标签的位置 */
+  .tags-right .tag-item[style*="left: 150%"] {  /* 卡券核销 */
+    left: 100% !important;
+  }
+
+  .tags-left .tag-item[style*="right: -120%"] {  /* 联动企微 */
+    right: 0 !important;
+  }
+
+  .tags-left .tag-item[style*="right: 160%"] {  /* 扫码点单 */
+    right: 120% !important;
+  }
+
+  .tags-left .tag-item[style*="right: 150%"] {  /* 客户营销 */
+    right: 120% !important;
+  }
+
+  /* 覆盖原有的圆角样式 */
+  .left-radius {
+    border-radius: 1.2vw;
+  }
+
+  .right-radius {
+    border-radius: 1.2vw;
+  }
+
+  /* 调整特定标签的位置 */
+  .tags-left .tag-item[style*="right: 10%"] {  /* 线上开台 */
+    right: 30% !important;
+  }
+
+  .tags-left .tag-item[style*="right: 20%"] {  /* 叫号大屏 */
+    right: 40% !important;
+  }
+
+  .tags-right .tag-item[style*="left: 10%"] {  /* 生日提醒 */
+    left: 30% !important;
+  }
+
+  .tags-right .tag-item[style*="left: 40%"] {  /* 数据报表 */
+    left: 55% !important;
+  }
+
+  /* 保持之前的位置调整 */
+  .tags-right .tag-item[style*="left: 150%"] {  /* 卡券核销 */
+    left: 100% !important;
+  }
+
+  .tags-left .tag-item[style*="right: -120%"] {  /* 联动企微 */
+    right: 0 !important;
+  }
+
+  .tags-left .tag-item[style*="right: 160%"] {  /* 扫码点单 */
+    right: 120% !important;
+  }
+
+  .tags-left .tag-item[style*="right: 150%"] {  /* 客户营销 */
+    right: 120% !important;
+  }
+}
+
+/* 移动端样式 */
+@media screen and (max-width: 480px) {
+  .solution-container {
+    height: 400px;
+    padding: 0 3vw;
+    background-size: 80% auto;
+  }
+
+  .tag-item {
+    font-size: 2.8vw; /* 进一步增大字体 */
+    padding: 1.2vw 2.4vw;
+    border-radius: 1.5vw; /* 进一步增大圆角 */
+  }
+
+  .dot {
+    width: 0.15vw; /* 最小的圆点 */
+    height: 0.15vw;
+  }
+
+  .tag-desc {
+    display: none !important; /* 强制隐藏描述 */
+  }
+
+  /* 调整特定标签的位置 */
+  .tags-left .tag-item[style*="right: 10%"] {  /* 线上开台 */
+    right: 50% !important;
+  }
+
+  .tags-left .tag-item[style*="right: 20%"] {  /* 叫号大屏 */
+    right: 60% !important;
+  }
+
+  .tags-right .tag-item[style*="left: 10%"] {  /* 生日提醒 */
+    left: 40% !important;
+  }
+
+  .tags-right .tag-item[style*="left: 40%"] {  /* 数据报表 */
+    left: 60% !important;
+  }
+
+  /* 保持之前的位置调整 */
+  .tags-right .tag-item[style*="left: 150%"] {  /* 卡券核销 */
+    left: 100% !important;
+  }
+
+  .tags-left .tag-item[style*="right: -120%"] {  /* 联动企微 */
+    right: 0 !important;
+  }
+
+  .tags-left .tag-item[style*="right: 160%"] {  /* 扫码点单 */
+    right: 120% !important;
+  }
+
+  .tags-left .tag-item[style*="right: 150%"] {  /* 客户营销 */
+    right: 120% !important;
+  }
+
+  /* 覆盖原有的圆角样式 */
+  .left-radius {
+    border-radius: 1.5vw;
+  }
+
+  .right-radius {
+    border-radius: 1.5vw;
+  }
+}
