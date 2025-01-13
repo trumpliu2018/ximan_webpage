@@ -209,6 +209,16 @@
                 生日提醒
                 <span class="tag-desc">筛选即将生日的客户，发送祝福或卡券等；唤醒客户</span>
               </div>
+              <!-- <div style="display: flex; gap: 1vw; margin-left: 50%;">
+                <div class="tag-item right-radius blue">
+                  <div class="dot"></div>
+                  生日提醒
+                </div>
+                <div class="tag-item left-radius blue" style="max-width: 20vw;">
+                  <div class="dot"></div>
+                  筛选即将生日的客户，发送祝福或卡券等；唤醒客户
+                </div>
+              </div> -->
               <div class="tag-item right-radius blue" style="left: 150%;">
                 <div class="dot"></div>
                 卡券核销

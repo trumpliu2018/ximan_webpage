@@ -3211,16 +3211,13 @@ img {
 
 .tag-desc {
   display: none;
-  position: absolute;
-  background: rgba(74, 187, 255, 0.9);
-  color: white;
-  padding: 10px;
-  border-radius: 8px;
-  font-size: 14px;
-  width: 200px;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 1;
+  padding: 0.5vw 0.75vw;
+  font-size: 0.9vw;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .tags-left .tag-desc {
