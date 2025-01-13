@@ -209,17 +209,7 @@
                 生日提醒
                 <span class="tag-desc">筛选即将生日的客户，发送祝福或卡券等；唤醒客户</span>
               </div>
-              <!-- <div style="display: flex; gap: 1vw; margin-left: 50%;">
-                <div class="tag-item right-radius blue">
-                  <div class="dot"></div>
-                  生日提醒
-                </div>
-                <div class="tag-item left-radius blue" style="max-width: 20vw;">
-                  <div class="dot"></div>
-                  筛选即将生日的客户，发送祝福或卡券等；唤醒客户
-                </div>
-              </div> -->
-              <div class="tag-item right-radius blue" style="left: 150%;">
+              <div class="tag-item right-radius blue" style="left: 150%; margin-top: 0.5vw;">
                 <div class="dot"></div>
                 卡券核销
               </div>
@@ -236,11 +226,11 @@
                 定时任务
                 <span class="tag-desc">门店创建定时任务，到指定时间后，系统自动下发任务到员工企业微信</span>
               </div>
-              <div class="tag-item right-radius blue" style="left: 100%;">
+              <div class="tag-item right-radius blue" style="left: 100%; margin-top: 0.5vw;">
                 <div class="dot"></div>
                 日志管理
               </div>
-              <div class="tag-item right-radius blue" style="left: -15%;">
+              <div class="tag-item right-radius pink" style="left: -15%;">
                 <div class="dot"></div>
                 进销存
               </div>
