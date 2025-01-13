@@ -156,51 +156,83 @@
           <div class="solution-tags">
             <!-- 左侧标签 -->
             <div class="tags-left">
-              <div class="tag-item pink">
+              <div class="tag-item left-radius blue">
+                <div class="dot"></div>
+                注册大礼包
+              </div>
+              <div class="tag-item left-radius pink" style="right:100%">
                 <div class="dot"></div>
                 在线订座
               </div>
-              <div class="tag-item blue">
+              <div class="tag-item left-radius pink" style="right:10%">
+                <div class="dot"></div>
+                线上开台
+              </div>
+              <div class="tag-item left-radius pink" style="right:160%">
                 <div class="dot"></div>
                 扫码点单
               </div>
-              <div class="tag-item blue">
+              <div class="tag-item left-radius blue" style="right:70%">
                 <div class="dot"></div>
                 存取酒
               </div>
-              <div class="tag-item pink">
+              <div class="tag-item left-radius blue" style="right:20%">
                 <div class="dot"></div>
                 叫号大屏
               </div>
-              <div class="tag-item blue">
+              <div class="tag-item left-radius blue" style="right:150%">
                 <div class="dot"></div>
                 客户营销
+              </div>
+              <div class="tag-item left-radius pink" style="right:18%">
+                <div class="dot"></div>
+                业绩查询
+              </div>
+              <div class="tag-item left-radius blue" style="right:-120%">
+                <div class="dot"></div>
+                联动企微
               </div>
             </div>
             
             <!-- 右侧标签 -->
-            <div class="tags-right">
-              <div class="tag-item pink">
+            <div class="tags-right" style="margin-top: -2vw;">
+              <div class="tag-item right-radius pink" style="left: 60%;">
                 <div class="dot"></div>
                 会员价
               </div>
-              <div class="tag-item blue">
+              <div class="tag-item right-radius blue" style="left: -25%;">
+                <div class="dot"></div>
+                客户标签
+              </div>
+              <div class="tag-item right-radius blue" style="left: 10%;">
                 <div class="dot"></div>
                 生日提醒
                 <span class="tag-desc">筛选即将生日的客户，发送祝福或卡券等；唤醒客户</span>
               </div>
-              <div class="tag-item pink">
+              <div class="tag-item right-radius blue" style="left: 150%;">
                 <div class="dot"></div>
                 卡券核销
               </div>
-              <div class="tag-item pink">
+              <div class="tag-item right-radius blue" style="left: 40%;">
+                <div class="dot"></div>
+                数据报表
+              </div>
+              <div class="tag-item right-radius pink" style="left: 110%;">
+                <div class="dot"></div>
+                线上充值赠送
+              </div>
+              <div class="tag-item right-radius pink" style="left: 40%;">
                 <div class="dot"></div>
                 定时任务
                 <span class="tag-desc">门店创建定时任务，到指定时间后，系统自动下发任务到员工企业微信</span>
               </div>
-              <div class="tag-item blue">
+              <div class="tag-item right-radius blue" style="left: 100%;">
                 <div class="dot"></div>
                 日志管理
+              </div>
+              <div class="tag-item right-radius blue" style="left: -15%;">
+                <div class="dot"></div>
+                进销存
               </div>
             </div>
           </div>

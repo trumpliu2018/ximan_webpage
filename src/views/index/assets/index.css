@@ -3041,12 +3041,12 @@ img {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  height: 800px;
+  /* height: 800px; */
   padding: 0 2vw;
   background-image: url('./img/gongnengjieshao_beijing.png');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 50% auto;
+  background-size: 80% auto;
   position: relative;
 }
 
@@ -3138,19 +3138,28 @@ img {
 .tags-left, .tags-right {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 0.6vw;
   width: auto;
 }
 
 .tag-item {
-  padding: 10px 20px;
-  font-size: 20px;
+  padding: 0.5vw 0.75vw;
+  font-size: 0.9vw;
   position: relative;
   cursor: pointer;
   transition: all 0.3s ease;
+  width: -moz-fit-content;
   width: fit-content;
-  border-radius: 0px 20px 0px 20px;
 }
+
+.left-radius {
+  border-radius: 0px 0.8vw 0px 0.8vw;
+}
+
+.right-radius {
+  border-radius: 0.8vw 0 0.8vw 0;
+}
+
 
 /* 粉色主题标签 */
 .tag-item.pink {
@@ -3188,8 +3197,8 @@ img {
 
 /* 右侧标签的小圆点 */
 .tags-right .tag-item .dot {
-  top: -4px;
-  left: -4px;
+  top: -0.1vw;
+  left: -0.3vw;
 }
 
 .tags-right .tag-item.pink .dot {
