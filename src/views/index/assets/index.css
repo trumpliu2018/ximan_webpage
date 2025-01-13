@@ -998,8 +998,8 @@ html, body {
 
 .group_8 {
   background-color: rgba(22, 25, 34, 1);
-  width: 100vw;
-  height: 45vw;
+  width: 100%;
+  padding: 4.17vw 0;
 }
 
 .box_58 {
@@ -3034,5 +3034,290 @@ img {
     font-size: 2.5vw;
     white-space: normal;
     text-align: center;
+  }
+}
+
+.solution-container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 800px;
+  padding: 0 2vw;
+  background-image: url('./img/gongnengjieshao_beijing.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50% auto;
+  position: relative;
+}
+
+.solution-tags {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20vw;
+  position: relative;
+}
+
+/* 移动端响应式 */
+@media screen and (max-width: 768px) {
+  .group_8 {
+    padding: 6vw 0;
+  }
+
+  .solution-container {
+    height: 600px;
+    padding: 0 4vw;
+    background-size: 70% auto;
+  }
+
+  .solution-tags {
+    flex-direction: row;
+    gap: 4vw;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+  }
+
+  .tags-left, .tags-right {
+    gap: 1.5vw; /* 减小间距 */
+    align-items: flex-start;
+  }
+
+  .tags-right {
+    align-items: flex-end;
+  }
+
+  .tag-item {
+    font-size: 1.8vw; /* 减小字体大小 */
+    padding: 0.8vw 1.6vw; /* 减小内边距 */
+    white-space: nowrap;
+  }
+
+  .dot {
+    width: 0.8vw; /* 减小圆点大小 */
+    height: 0.8vw;
+  }
+}
+
+/* 超小屏幕 */
+@media screen and (max-width: 480px) {
+  .solution-container {
+    height: 400px;
+    padding: 0 3vw;
+    background-size: 80% auto;
+  }
+
+  .solution-tags {
+    gap: 2.5vw; /* 减小左右间距 */
+  }
+
+  .tags-left, .tags-right {
+    gap: 1.2vw; /* 减小标签间距 */
+  }
+
+  .tag-item {
+    font-size: 1.6vw; /* 进一步减小字体 */
+    padding: 0.6vw 1.2vw; /* 减小内边距 */
+  }
+
+  .dot {
+    width: 0.6vw; /* 更小的圆点 */
+    height: 0.6vw;
+  }
+}
+
+/* 大屏幕 */
+@media (min-width: 1921px) {
+  .solution-container {
+    padding: 0;
+  }
+}
+
+.tags-left, .tags-right {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: auto;
+}
+
+.tag-item {
+  padding: 10px 20px;
+  font-size: 20px;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: fit-content;
+  border-radius: 0px 20px 0px 20px;
+}
+
+/* 粉色主题标签 */
+.tag-item.pink {
+  background: rgba(153, 53, 118, 0.25);
+  color: #FF69D3;
+}
+
+/* 蓝色主题标签 */
+.tag-item.blue {
+  background: rgba(57, 65, 242, 0.25);
+  color: #4ABBFF;
+}
+
+/* 小圆点样式 */
+.dot {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+/* 左侧标签的小圆点 */
+.tags-left .tag-item .dot {
+  top: -4px;
+  right: -4px;
+}
+
+.tags-left .tag-item.pink .dot {
+  background: #FF69D3;
+}
+
+.tags-left .tag-item.blue .dot {
+  background: #4ABBFF;
+}
+
+/* 右侧标签的小圆点 */
+.tags-right .tag-item .dot {
+  top: -4px;
+  left: -4px;
+}
+
+.tags-right .tag-item.pink .dot {
+  background: #FF69D3;
+}
+
+.tags-right .tag-item.blue .dot {
+  background: #4ABBFF;
+}
+
+.tag-desc {
+  display: none;
+  position: absolute;
+  background: rgba(74, 187, 255, 0.9);
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 14px;
+  width: 200px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.tags-left .tag-desc {
+  left: calc(100% + 10px);
+}
+
+.tags-right .tag-desc {
+  right: calc(100% + 10px);
+}
+
+.tag-item:hover {
+  opacity: 0.8;
+}
+
+.tag-item:hover .tag-desc {
+  display: block;
+}
+
+/* 移动端响应式 */
+@media screen and (max-width: 768px) {
+  .group_8 .solution-container .solution-tags .tag-item {
+    font-size: 1.8vw !important;
+    padding: 0.8vw 1.6vw !important;
+  }
+
+  .group_8 .solution-container .solution-tags .tags-left,
+  .group_8 .solution-container .solution-tags .tags-right {
+    gap: 1.5vw;
+  }
+
+  .group_8 .solution-container .solution-tags .dot {
+    width: 0.8vw;
+    height: 0.8vw;
+  }
+}
+
+/* 超小屏幕 */
+@media screen and (max-width: 480px) {
+  .group_8 .solution-container .solution-tags .tag-item {
+    font-size: 1.6vw !important;
+    padding: 0.6vw 1.2vw !important;
+  }
+
+  .group_8 .solution-container .solution-tags .tags-left,
+  .group_8 .solution-container .solution-tags .tags-right {
+    gap: 1.2vw;
+  }
+
+  .group_8 .solution-container .solution-tags .dot {
+    width: 0.6vw;
+    height: 0.6vw;
+  }
+}
+
+/* 移动端响应式 */
+@media screen and (max-width: 768px) {
+  .group_8 .solution-container {
+    height: 600px;
+    padding: 0 4vw;
+    background-size: 90% auto; /* 增大背景图片 */
+  }
+
+  .group_8 .solution-container .solution-tags {
+    gap: 8vw; /* 增大左右间距 */
+  }
+
+  .group_8 .solution-container .solution-tags .tag-item {
+    font-size: 2.8vw !important; /* 增大字体 */
+    padding: 1.2vw 2.4vw !important; /* 增大内边距 */
+  }
+
+  .group_8 .solution-container .solution-tags .tags-left,
+  .group_8 .solution-container .solution-tags .tags-right {
+    gap: 2.5vw; /* 增大标签间距 */
+  }
+
+  .group_8 .solution-container .solution-tags .dot {
+    width: 1.2vw; /* 增大圆点 */
+    height: 1.2vw;
+  }
+}
+
+/* 超小屏幕 */
+@media screen and (max-width: 480px) {
+  .group_8 .solution-container {
+    height: 500px;
+    padding: 0 3vw;
+    background-size: 100% auto; /* 背景图片占满宽度 */
+  }
+
+  .group_8 .solution-container .solution-tags {
+    gap: 6vw;
+  }
+
+  .group_8 .solution-container .solution-tags .tag-item {
+    font-size: 3.2vw !important; /* 进一步增大字体 */
+    padding: 1.5vw 3vw !important; /* 增大内边距 */
+  }
+
+  .group_8 .solution-container .solution-tags .tags-left,
+  .group_8 .solution-container .solution-tags .tags-right {
+    gap: 3vw; /* 增大标签间距 */
+  }
+
+  .group_8 .solution-container .solution-tags .dot {
+    width: 1.5vw; /* 增大圆点 */
+    height: 1.5vw;
   }
 }

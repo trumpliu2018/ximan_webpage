@@ -151,86 +151,60 @@
         </div>
       </div>
       <div class="group_8 flex-col">
-        <!-- <div class="box_57 flex-row"><div class="block_3 flex-col"></div></div> -->
         <div class="section-title solution"></div>
-        <!-- <div class="box_58 flex-row">
-          <div class="box_59 flex-col justify-between">
-            <div class="text-wrapper_4 flex-col">
-              <span class="text_9">筛选即将生日的客户，发送祝福或卡券等；唤醒客户</span>
+        <div class="solution-container">
+          <div class="solution-tags">
+            <!-- 左侧标签 -->
+            <div class="tags-left">
+              <div class="tag-item pink">
+                <div class="dot"></div>
+                在线订座
+              </div>
+              <div class="tag-item blue">
+                <div class="dot"></div>
+                扫码点单
+              </div>
+              <div class="tag-item blue">
+                <div class="dot"></div>
+                存取酒
+              </div>
+              <div class="tag-item pink">
+                <div class="dot"></div>
+                叫号大屏
+              </div>
+              <div class="tag-item blue">
+                <div class="dot"></div>
+                客户营销
+              </div>
             </div>
-            <div class="text-wrapper_5 flex-col">
-              <span class="text_10">门店创建定时任务，���指定时间后，系统自动下发任何到员工企业微信</span>
+            
+            <!-- 右侧标签 -->
+            <div class="tags-right">
+              <div class="tag-item pink">
+                <div class="dot"></div>
+                会员价
+              </div>
+              <div class="tag-item blue">
+                <div class="dot"></div>
+                生日提醒
+                <span class="tag-desc">筛选即将生日的客户，发送祝福或卡券等；唤醒客户</span>
+              </div>
+              <div class="tag-item pink">
+                <div class="dot"></div>
+                卡券核销
+              </div>
+              <div class="tag-item pink">
+                <div class="dot"></div>
+                定时任务
+                <span class="tag-desc">门店创建定时任务，到指定时间后，系统自动下发任务到员工企业微信</span>
+              </div>
+              <div class="tag-item blue">
+                <div class="dot"></div>
+                日志管理
+              </div>
             </div>
           </div>
-          <div class="group_10 flex-col">
-            <div class="box_60 flex-row justify-between">
-              <div class="section_7 flex-col">
-                <div class="box_6 flex-col">
-                  <div class="block_5 flex-col"></div>
-                  <div class="text-wrapper_6 flex-col"><span class="text_11">线上开台</span></div>
-                </div>
-                <div class="text-wrapper_7 flex-col"><span class="text_12">在线订座</span></div>
-              </div>
-              <div class="box_61 flex-col justify-between">
-                <div class="section_13 flex-row justify-between">
-                  <div class="block_6 flex-col"></div>
-                  <div class="text-wrapper_8 flex-col"><span class="text_13">会员价</span></div>
-                </div>
-                <div class="group_12 flex-col">
-                  <div class="group_13 flex-col">
-                    <div class="block_17 flex-row"><div class="group_15 flex-col"></div></div>
-                    <div class="block_18 flex-row"><div class="box_7 flex-col"></div></div>
-                  </div>
-                  <div class="group_17 flex-row">
-                    <div class="group_18 flex-col"></div>
-                    <div class="text-wrapper_9 flex-col"><span class="text_14">数据报表</span></div>
-                    <div class="group_19 flex-col"></div>
-                  </div>
-                  <div class="group_20 flex-col">
-                    <div class="text-wrapper_10 flex-col"><span class="text_15">联动企微</span></div>
-                    <div class="section_9 flex-col">
-                      <div class="group_21 flex-col"></div>
-                      <div class="group_22 flex-col"></div>
-                    </div>
-                  </div>
-                  <div class="group_23 flex-col"><div class="section_10 flex-col"></div></div>
-                  <div class="group_24 flex-col"><div class="group_25 flex-col"></div></div>
-                  <div class="text-wrapper_11 flex-col"><span class="text_16">客户标签</span></div>
-                </div>
-              </div>
-            </div>
-            <div class="box_62 flex-row"><div class="box_8 flex-col"></div></div>
-            <div class="box_63 flex-row justify-between">
-              <div class="section_11 flex-col"></div>
-              <div class="text-wrapper_12 flex-col"><span class="text_17">卡券核销</span></div>
-            </div>
-            <div class="box_64 flex-row">
-              <div class="box_9 flex-col"><div class="box_10 flex-col"></div></div>
-              <div class="box_11 flex-col"></div>
-              <div class="text-wrapper_13 flex-col"><span class="text_18">线上充值赠送</span></div>
-            </div>
-            <div class="box_65 flex-row">
-              <div class="group_26 flex-col">
-                <div class="group_27 flex-col"></div>
-                <div class="group_28 flex-col">
-                  <div class="text-wrapper_14 flex-col"><span class="text_19">存取酒</span></div>
-                  <div class="group_29 flex-col"></div>
-                </div>
-                <div class="text-wrapper_15 flex-col"><span class="text_20">业绩查询</span></div>
-              </div>
-              <div class="group_30 flex-col"></div>
-              <div class="text-wrapper_16 flex-col"><span class="text_21">日志管理</span></div>
-            </div>
-            <div class="block_11 flex-col"><div class="block_12 flex-col"></div></div>
-            <div class="text-wrapper_17 flex-col"><span class="text_22">注册大礼包</span></div>
-            <div class="text-wrapper_18 flex-col"><span class="text_23">叫号大屏</span></div>
-            <div class="text-wrapper_19 flex-col"><span class="text_24">生日���醒</span></div>
-            <div class="text-wrapper_20 flex-col"><span class="text_25">定时任务</span></div>
-            <div class="text-wrapper_21 flex-col"><span class="text_26">进销存</span></div>
-            <div class="text-wrapper_22 flex-col"><span class="text_27">扫码点单</span></div>
-            <div class="text-wrapper_23 flex-col"><span class="text_28">客户营销</span></div>
-          </div>
-        </div> -->
+        </div>
       </div>
       <div class="group_31 flex-col">
         <div class="section-title hardware"></div>
