@@ -8,6 +8,7 @@ import { CheckboxGroup, Checkbox } from 'vant';
 import { Tab, Tabs } from 'vant';
 import { Tabbar, TabbarItem } from 'vant';
 import { NavBar, Icon, Tag } from 'vant';
+import VueMeta from 'vue-meta'
 
 Vue.component('van-field', Field)
 Vue.component('van-button', Button)
@@ -26,6 +27,7 @@ Vue.component('van-tabbar-item', TabbarItem)
 Vue.component('van-nav-bar', NavBar)
 Vue.component('van-icon', Icon)
 Vue.component('van-tag', Tag)
+Vue.use(VueMeta)
 Vue.config.productionTip = false
 
 new Vue({

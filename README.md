@@ -1,4 +1,4 @@
-# vue-css-many
+# 希曼收银
 
 ## Project setup
 ```
