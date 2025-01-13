@@ -321,7 +321,8 @@ export default {
           lanhuBg0: 'rgba(35,39,54,1.000000)',
           specialSlot2: {
             lanhuimage0:
-              'https://lanhu-oss.lanhuapp.com/SketchPng15165c32bdff872729caa6debd13e00e44b7050e091456786d981136732c203b'
+
+              require('./assets/img/houtaiguanli.png')
           },
           slot2: 2,
           specialSlot1: { lanhutext0: '后台管理' },
@@ -331,7 +332,7 @@ export default {
           lanhuBg0: 'rgba(35,39,54,1.000000)',
           specialSlot2: {
             lanhuimage0:
-              'https://lanhu-oss.lanhuapp.com/SketchPng7565ccf0f7024691e63f7e3715b88419282a3019811351b3482eff56044ba57c'
+              require('./assets/img/zike.png')
           },
           slot2: 2,
           specialSlot1: { lanhutext0: '咨客系统' },
@@ -340,8 +341,7 @@ export default {
         {
           lanhuBg0: 'rgba(35,39,54,1.000000)',
           specialSlot2: {
-            lanhuimage0:
-              'https://lanhu-oss.lanhuapp.com/SketchPng04bc6ca303f872c1515ab456a1f5f0a51a8a7d9bc95c25a554bc36b4f781f21d'
+            lanhuimage0: require('./assets/img/paddd.png')
           },
           slot2: 2,
           specialSlot1: { lanhutext0: 'iPad点单' },
@@ -350,8 +350,7 @@ export default {
         {
           lanhuBg0: 'rgba(35,39,54,1.000000)',
           specialSlot2: {
-            lanhuimage0:
-              'https://lanhu-oss.lanhuapp.com/SketchPngad1a8876ec37822044dd026689fbfaa4a357bb5bf4d5c8135cac3fb055fc1954'
+            lanhuimage0: require('./assets/img/weixin.png')
           },
           slot2: 2,
           specialSlot1: { lanhutext0: '微信扫码点单' },
@@ -360,8 +359,7 @@ export default {
         {
           lanhuBg0: 'rgba(35,39,54,1.000000)',
           specialSlot2: {
-            lanhuimage0:
-              'https://lanhu-oss.lanhuapp.com/SketchPng2d321f048432fa588391da41687fd524d5d70a98abd2b820a16aced9adaa06ee'
+            lanhuimage0: require('./assets/img/shouyin.png')
           },
           slot2: 2,
           specialSlot1: { lanhutext0: '收银系统' },
@@ -370,8 +368,7 @@ export default {
         {
           lanhuBg0: 'rgba(35,39,54,1.000000)',
           specialSlot2: {
-            lanhuimage0:
-              'https://lanhu-oss.lanhuapp.com/SketchPng4751680a2abfda20f890316ff49241c7c7bd347d430d346dc0df6047010deb3c'
+            lanhuimage0: require('./assets/img/huiyuan.png')
           },
           slot2: 2,
           specialSlot1: { lanhutext0: '会员系统' },
@@ -380,8 +377,7 @@ export default {
         {
           lanhuBg0: 'rgba(35,39,54,1.000000)',
           specialSlot2: {
-            lanhuimage0:
-              'https://lanhu-oss.lanhuapp.com/SketchPng320e40b998cfe49c04fe458d89eb20f7911944087849db248383115433928bb8'
+            lanhuimage0: require('./assets/img/cangku.png')
           },
           slot2: 2,
           specialSlot1: { lanhutext0: '仓库系统' },
@@ -390,8 +386,7 @@ export default {
         {
           lanhuBg0: 'rgba(35,39,54,1.000000)',
           specialSlot2: {
-            lanhuimage0:
-              'https://lanhu-oss.lanhuapp.com/SketchPngd73b69b887ac8ac67b122990225d65539bf4398665a8d9d20d9133c2f7d71fc0'
+            lanhuimage0: require('./assets/img/cunjiu.png')
           },
           slot2: 2,
           specialSlot1: { lanhutext0: '存酒系统' },
@@ -400,8 +395,7 @@ export default {
         {
           lanhuBg0: 'rgba(35,39,54,1.000000)',
           specialSlot2: {
-            lanhuimage0:
-              'https://lanhu-oss.lanhuapp.com/SketchPngb3727c7da75b441683e87ff50d19484bf9b63a582b0bc8e2c54568afac434942'
+            lanhuimage0: require('./assets/img/baobiao.png')
           },
           slot2: 2,
           specialSlot1: { lanhutext0: '报表系统' },
@@ -410,8 +404,7 @@ export default {
         {
           lanhuBg0: 'rgba(35,39,54,1.000000)',
           specialSlot2: {
-            lanhuimage0:
-              'https://lanhu-oss.lanhuapp.com/SketchPng838bd97cdc520dd814abb9d09547cd9c9a47ed0f568cd26ea824212725b24867'
+            lanhuimage0: require('./assets/img/gadmin.png')
           },
           slot2: 2,
           specialSlot1: { lanhutext0: '线上管理平台' },
@@ -420,8 +413,7 @@ export default {
         {
           lanhuBg0: 'rgba(35,39,54,1.000000)',
           specialSlot2: {
-            lanhuimage0:
-              'https://lanhu-oss.lanhuapp.com/SketchPng87441f8615802997bdc4d1c14315cbf10b3b5cc176f2d0a90cef02723e81728f'
+            lanhuimage0: require('./assets/img/dzshouji.png')
           },
           slot2: 2,
           specialSlot1: { lanhutext0: '店长手机端' },
@@ -430,19 +422,25 @@ export default {
         {
           lanhuBg0: 'rgba(35,39,54,1.000000)',
           specialSlot2: {
-            lanhuimage0:
-              'https://lanhu-oss.lanhuapp.com/SketchPngbef5f2087ca4638666d006a764c245221e8a33b7914b74fed3ffba6526291008'
+            lanhuimage0: require('./assets/img/zikeshouji.png')
           },
           slot2: 2,
           specialSlot1: { lanhutext0: '咨客手机端' },
           slot1: 1
         },
-        { lanhuBg0: 'rgba(35,39,54,1.000000)', slot3: 3 },
         {
           lanhuBg0: 'rgba(35,39,54,1.000000)',
           specialSlot2: {
-            lanhuimage0:
-              'https://lanhu-oss.lanhuapp.com/SketchPngd05da827d1826475c2188a7f2aab5c59ec946f38830eb0a2ee3342197557636e'
+            lanhuimage0: require('./assets/img/yxshouji.png')
+          },
+          slot2: 2,
+          specialSlot1: { lanhutext0: '营销手机端' },
+          slot1: 1
+        },
+        {
+          lanhuBg0: 'rgba(35,39,54,1.000000)',
+          specialSlot2: {
+            lanhuimage0: require('./assets/img/fwyshouij.png')
           },
           slot2: 2,
           specialSlot1: { lanhutext0: '服务员手机端' },
