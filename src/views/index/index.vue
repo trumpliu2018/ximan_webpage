@@ -40,7 +40,7 @@
                       <span>高层管理人员实时查看门店经营</span>
                     </span>
                   </div>
-                  <div class="advantage-section">
+                  <div class="advantage-section" style="margin-top: 1vw;">
                     <span class="advance_title">其他优势</span>
                     <span class="paragraph_1">
                       <span>专开发团队经验丰富、技术卓越</span>
