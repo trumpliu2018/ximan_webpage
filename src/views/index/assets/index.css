@@ -412,7 +412,8 @@ html, body {
   }
   
   .paragraph_1 {
-    font-size: 0.8vw;   
+    font-size: 1vw;   
+    line-height: 1.6vw
   }
   .box_53 {
     margin-top: 7.5vw !important;
@@ -435,6 +436,7 @@ html, body {
   
   .paragraph_1 {
     font-size: 1vw;
+    line-height: 1.5vw
   }
   .box_53 {
     margin-top: 7.5vw !important;

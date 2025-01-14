@@ -2,6 +2,7 @@
   <div class="group_38 flex-col">
     <div class="section-title contact"></div>
     <div class="contact-section">
+<!--       
       <div class="contact-item">
         <img
           class="contact-icon"
@@ -36,25 +37,26 @@
           <div class="contact-label">邮箱：</div>
           <div class="contact-value">18276765363@xmsj.com</div>
         </div>
-      </div>
+      </div> -->
 
+      <div class="qr-text" style="color: rgba(255, 255, 255, 0.7)">您可扫描以下二维码联系我们：咨询、合作、了解更多</div>
       <!-- 二维码 -->
       <div class="contact-qr">
         <div class="qr-item">
           <img
             class="qr-image"
             referrerpolicy="no-referrer"
-            src="../views/index/assets/img/SketchPngcd8e450b5c62f460137112bb10b6bf6bac477563d4d3e8fc4cf3a085ba517581.png"
+            src="../views/index/assets/img/zeng.png"
           />
-          <div class="qr-text">客服1微信</div>
+          <div class="qr-text">曾总</div>
         </div>
         <div class="qr-item">
           <img
             class="qr-image"
             referrerpolicy="no-referrer"
-            src="../views/index/assets/img/SketchPngcd8e450b5c62f460137112bb10b6bf6bac477563d4d3e8fc4cf3a085ba517581.png"
+            src="../views/index/assets/img/xiong.png"
           />
-          <div class="qr-text">客服2微信</div>
+          <div class="qr-text">熊总</div>
         </div>
       </div>
     </div>

@@ -19,11 +19,11 @@
             <span class="text-group_1">在线咨询</span>
           </div>
         </div> -->
-        <img
+        <!-- <img
           class="image_5"
           referrerpolicy="no-referrer"
           src="./assets/img/SketchPngac392c9846e8bd8c510e25a31cb9a5aa9e986fcb185c871aa93f7c2b45e16e09.png"
-        />
+        /> -->
       </div>
       <div class="group_3 flex-col">
         <div class="section-title advantage"></div>
@@ -43,7 +43,7 @@
                   <div class="advantage-section" style="margin-top: 1vw;">
                     <span class="advance_title">其他优势</span>
                     <span class="paragraph_1">
-                      <span>专开发团队经验丰富、技术卓越</span>
+                      <span>专业开发团队经验丰富、技术卓越</span>
                       <span>人工客服24小时在线，售后无忧</span>
                       <span>系统版本维护更新，保障系统与时俱进</span>
                       <span>酒吧定制化开发功能</span>
