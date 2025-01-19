@@ -59,6 +59,12 @@
           <div class="qr-text">熊总</div>
         </div>
       </div>
+      <!-- 添加备案信息 -->
+      <div class="beian-info">
+        <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">
+          沪ICP备2023016828号-1
+        </a>
+      </div>
     </div>
   </div>
 </template>
@@ -221,6 +227,47 @@
 
     .qr-text {
       font-size: 12px;
+    }
+  }
+
+  .beian-info {
+    text-align: center;
+    margin-top: 2vw;
+    padding-bottom: 1vw;
+  }
+
+  .beian-info a {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8vw;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .beian-info a:hover {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  /* 移动端适配 */
+  @media (max-width: 768px) {
+    .beian-info {
+      margin-top: 4vw;
+      padding-bottom: 2vw;
+    }
+
+    .beian-info a {
+      font-size: 2.5vw;
+    }
+  }
+
+  /* 大屏幕适配 */
+  @media (min-width: 1921px) {
+    .beian-info {
+      margin-top: 40px;
+      padding-bottom: 20px;
+    }
+
+    .beian-info a {
+      font-size: 14px;
     }
   }
 </style>
